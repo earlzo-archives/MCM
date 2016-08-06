@@ -1,0 +1,8 @@
+总共129组数据
+训练函数 'trainlm' Levenberg-Marquardt backpropagation 莱文贝格－马夸特方法
+效果评估方法 'mse' 均方规范化Mean squared normalized error performance
+best_perf  4.825622185172680e-06
+best_vperf 1.285468792048101e-05
+best_tperf 5.460705629902378e-06
+
+
