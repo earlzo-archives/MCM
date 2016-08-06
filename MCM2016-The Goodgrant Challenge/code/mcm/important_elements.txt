@@ -1,0 +1,51 @@
+是否只是远程教育(0 不仅仅是远程教育; 1 仅仅是远程教育)
+UGDS:
+
+注册的本科生人数
+PPTUG_EF:
+
+本科生的兼职比例
+RET_FT4:
+
+第一时间，全职四年制院校的学生保留率
+RET_FTL4:
+第一时间，在低于四年制院校全日制学生保留率
+RET_PT4:
+第一时间，兼职的学生在四年制院校保留率
+
+RET_PTL4:
+第一时间，兼职的学生在低于四年制院校保留率
+PCTFLOAN:
+本科生获得联邦贷款的比例
+
+UG25abv:
+25岁以上本科生的比例
+
+GRAD_DEBT_MDN_SUPP:
+平均债务
+
+GRAD_DEBT_MDN10YR_SUPP:
+10年内每月偿还债务的中位数
+
+RPY_3YR_RT_SUPP:
+3年还款率
+
+C150_4_POOLED_SUPP:
+四年制院校完成率的150％，汇集在两年滚动平均值和压制小样本的大小。
+(150% completion rate for four-year institutions, pooled in two-year rolling averages and suppressed for small n size.)
+对于四年制的学校，能在6年内毕业的学生都被认为是“按时”毕业的。
+
+C200_L4_POOLED_SUPP:
+200％的完成率低于四年制院校，汇集在两年滚动平均值和压制小样本的大小。
+(200% completion rate for less-than-four-year institutions, pooled in two-year rolling averages and suppressed for small n size. )
+对于两年制的学校，能在4年内毕业的学生都被认为是“按时”毕业的。
+
+md_earn_wne_p10:
+学生工作10年后的收入中位数
+(Median earnings of students working and not enrolled 10 years after entry.）
+
+gt_25k_p6:
+在6年后学生收入超过$25,000 /年（阈值收益）
+
+PCTPELL:
+收到佩尔助学金的本科生的百分比

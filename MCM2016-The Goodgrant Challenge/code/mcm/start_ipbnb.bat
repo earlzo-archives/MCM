@@ -1,0 +1,1 @@
+ipython notebook --notebook-dir=%cd%

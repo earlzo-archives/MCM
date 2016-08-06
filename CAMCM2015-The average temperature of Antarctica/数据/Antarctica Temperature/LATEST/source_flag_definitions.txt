@@ -1,0 +1,37 @@
+% File Generated: 02-Feb-2012 01:22:39
+% Dataset Collection: Scientific Committee on Antarctic Research
+% Type: TAVG - Monthly
+% Version: LATEST
+% Dataset Hash: e0e288f6c3f347cf7f7b2e1ba302faa2
+% 
+% ------------------------------------
+% 
+% The associated dataset name is shown above, while this file should have the 
+% name
+% 
+% 	source_flag_definitions.txt
+% 
+% For general information about this data product, please refer to the data set 
+% readme file: README.txt
+% 
+% The current file contains descriptions of the per datum source codes.  The main 
+% temperature data, other secondary data, and station metadata can be found in 
+% other files in the same directory and should be distributed together.
+% 
+% The columns contained in this file are as follows:
+% 
+% 	Flag ID: A unique integer identifying each source archive.
+% 
+% 	Flag Description: A text description of the source.
+% 
+% The source associations with data may be found in the file "sources.txt"
+% 
+% Only source codes actually in use in this dataset will appear below.  Source 
+% code values should remain stable over time and retain the same meaning for all 
+% Berkeley temperature datasets.
+% 
+% 
+% ------------------------------------
+% Flag Code, Flag Description
+% 
+    34:	Scientific Committee on Antarctic Research

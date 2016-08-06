@@ -1,0 +1,253 @@
+% File Generated: 02-Feb-2012 01:22:39
+% Dataset Collection: Scientific Committee on Antarctic Research
+% Type: TAVG - Monthly
+% Version: LATEST
+% Dataset Hash: e0e288f6c3f347cf7f7b2e1ba302faa2
+% 
+% ------------------------------------
+% 
+% The associated dataset name is shown above, while this file should have the 
+% name
+% 
+% 	site_detail.txt
+% 
+% For general information about this data product, please refer to the data set 
+% readme file: README.txt
+% 
+% The current file is the "site_detail" export, which contains a detailed summary 
+% of the stations appearing in this dataset.  Information is presented in tab 
+% delimited columnar format.  Primary temperature data, secondary data such as 
+% quality control flags, and other metadata can be found in other files in the 
+% same directory and should be distributed together.
+% 
+% In addition, the files:
+% 
+% 	site_summary.txt
+% 	site_complete_detail.txt
+% 
+% Provide alternative ways to access information regarding each site and may be 
+% used in place of this file.  The current file is meant as a summary appropriate 
+% for most users.
+% 
+% The columns contained in this file are as follows:
+% 
+% 	Station ID: A unique integer identifying each station
+% 
+% 	Station Name: The canonical station name
+% 
+% 	Latitude: The present day latitude of the station in degrees and decimal 
+% fraction of a degree.  Latitudes run from -90 to +90, where negative numbers 
+% indicate positions in the southern hemisphere.  Missing values are reported as 
+% -999.
+% 
+% 	Longitude: The present day longitude of the station in degrees and decimal 
+% fraction of a degree.  Longitudes run from -180 to +180, where negative numbers 
+% indicate positions in the western hemisphere.  Missing values are reported as 
+% -999.
+% 
+% 	Elevation: The reported elevation of the station in meters above mean sea 
+% level.  Missing values are reported as -999.
+% 
+% 	Latitude Uncertainty: The estimated uncertainty on the reported latitude.  
+% Where possible this is based on appropriate metadata; however, in many cases it 
+% is simply a reflection of the precision with which the latitude was reported.  
+% Undetermined values are reported as -9.999.
+% 
+% 	Longitude Uncertainty: The estimated uncertainty on the reported  longitude.  
+% Where possible this is based on appropriate metadata; however, in many cases it 
+% is simply a reflection of the precision with which the longitude was reported.  
+% Undetermined values are reported as -9.999.
+% 
+% 	Elevation Uncertainty: The estimated uncertainty on the station elevation.  
+% Where possible this is based on appropriate metadata; however, in many cases it 
+% is simply a reflection of the precision with which the elevation was reported.  
+% Undetermined values are reported as -9.999.
+% 
+% 	Country: The country that the station is located in.  Attempts have been made 
+% to use current geopolitical boundaries, but the countries reported here may 
+% reflect obsolete designations.  In some cases non-sovereign territories are 
+% designated when they are geographically isolated from their parent country.  
+% For example, the Carribean island of Martinique, administered by France, is 
+% designated as "Martinique 
+% [France]".  The code "[Missing]" is used if the country is not known.  The code 
+% "[Conflict]" is used if two or more data sources disagree on which country the 
+% station belongs to and further details are contained in 
+% "site_complete_detail.txt".
+% 
+% 	State / Province Code: A code indicating the state, province, or similar 
+% political subdivision of the designated country that the station is located in. 
+% In most cases these use two letter codes and reflect conventional designations 
+% within the designated country.  Missing and unspecified values are blank.  
+% Conflicting country codes are indicated as "[Conflict]", and further details 
+% are contained in "site_complete_detail.txt".
+% 
+% 	County: The name of the county, or similar political subdivision, that the 
+% station is located in.  This field is usually blank except for some stations in 
+% the United States within some datasets.
+% 
+% 	Time Zone: The UTC offset of local standard time at the location of the 
+% station, if known.  A value of -99 is used to indicate missing values.
+% 
+% 	WMO ID: The World Meteorological Organization identification number assigned 
+% to the station, if any.  Station which do not have or fail to report a WMO ID 
+% are assigned a value of -9999.  In rare cases, a station may be associated with 
+% more than one WMO ID (for example, because one of the values was an erroneous 
+% report).  Such conflicted values are reported as -5555 in this file and 
+% elaborated in "site_complete_detail.txt".
+% 
+% 	Coop ID: Identification number assigned as part of the United States 
+% Cooperative Observer Network.  The first two digits are specific to the state 
+% or territory the station resides in.  Missing values are assigned value -9999.  
+% Stations with more than one cooperative network ID are assigned value -5555 in 
+% this file and elaborated in "site_complete_detail.txt".
+% 
+% 	WBAN ID: The Weather Bureau / Army / Navy identification number assigned to 
+% the station, if any.  Missing values reported as -9999.  Multiple values are 
+% reported as -5555 and elaborated in "site_complete_detail.txt".
+% 
+% 	ICAO ID: The International Civil Aviation Organization identification code.  
+% This is a four letter code usually only assigned to airports.  Missing values 
+% are left blank.  If more than one value is indicated the string “[Conflict]” is 
+% used and elaborated in "site_complete_detail.txt".
+% 
+% 	# of Relocations: A number indicating the number of times that the available 
+% metadata explicitly indicates a change in station location.  Explicit 
+% relocation indicators are commonly available in the United States, but almost 
+% never available outside of it.  See "station_changes.txt" for a discussion of 
+% relocations.
+% 
+% 	# of Suggested Relocations: A number indicating the number of times that the 
+% location metadata for this station was changed during its history.  Such 
+% changes may indicate that the station moved; however, such changes may also be 
+% caused be efforts to resurvey the location of the station and/or changes in the 
+% precision with which location metadata is reported.
+% 
+% 	# of Sources: Identifies the number of different data archives that 
+% contributed to the data reported for this site.
+% 
+% 	Hash: A 128-bit MD5 hash expressed as a hexadecimal string.  This hash is 
+% derived from the station metadata, and hence uniquely identifies the station.  
+% The intended use of this field is as an aid to help identify changes in station 
+% metadata.
+% 
+% 
+% Note that the locations recorded here reflect the present station position 
+% only.  Information on historical site locations, if available, is provided in 
+% the file "site_complete_detail.txt".  That file also provides details 
+% explaining the multiple reported values on fields where a conflicted state is 
+% possible.  
+% 
+% For additional details regarding the occurrence times of site relocations 
+% please see "site_changes.txt"
+% 
+% 
+% ------------------------------------
+% Station ID, Station Name, Latitude, Longitude, Elevation (m), Lat. Uncertainty, Long. Uncertainty, Elev. Uncertainty (m), Country, State / Province Code, County, Time Zone, WMO ID, Coop ID, WBAN ID, ICAO ID, # of Relocations, # Suggested Relocations, # of Sources, Hash
+% 
+2846	Erin                                    	 -84.90000	-128.80000	 990.00000	 0.05000	 0.05000	   0.50000	Antarctica                              	            	                    	-99	21363	 -9999	-9999	            	 0	 0	 1	cedcb3d1ac3300a477bf845f2e237256
+2858	Doug                                    	 -82.30000	-113.20000	1433.00000	 0.05000	 0.05000	   0.50000	Antarctica                              	            	                    	-99	21359	 -9999	-9999	            	 0	 0	 1	473c26acedff96fa8fc07e2e8071853e
+2882	Belgrano I                              	 -78.00000	 -38.80000	  50.00000	 0.05000	 0.05000	   0.50000	Antarctica                              	            	                    	-99	89967	 -9999	-9999	            	 0	 0	 1	057b7623d82572a130381454097904c0
+2884	Pegasus South                           	 -78.00000	 166.60000	   5.00000	 0.05000	 0.05000	   0.50000	Antarctica                              	            	                    	-99	 8937	 -9999	-9999	            	 0	 0	 1	79681847ff50d070e572055902741626
+2911	LGB35                                   	 -76.00000	  65.00000	2345.00000	 0.50000	 0.50000	   0.50000	Antarctica                              	            	                    	-99	89568	 -9999	-9999	            	 0	 0	 1	9b69f62c630ad2660a1bf757a840d88a
+2916	Limbert                                 	 -75.40000	 -59.90000	  40.00000	 0.05000	 0.05000	   0.50000	Antarctica                              	            	                    	-99	89257	 -9999	-9999	            	 0	 0	 1	312d915f127b5bd45deef9d3907aa387
+2924	Nansen Ice Sheet                        	 -74.80000	 163.30000	  40.00000	 0.05000	 0.05000	   0.50000	Antarctica                              	            	                    	-99	 7350	 -9999	-9999	            	 0	 0	 1	af5afc0080f59a2f308512dd17f68f19
+2928	Enigma Lake                             	 -74.70000	 164.00000	 160.00000	 0.05000	 0.05000	   0.50000	Antarctica                              	            	                    	-99	 7354	 -9999	-9999	            	 0	 0	 1	11b56e3377186bc166a8b801f066e999
+2929	Mario Zucchelli                         	 -74.70000	 164.10000	  92.00000	 0.05000	 0.05000	   0.50000	Antarctica                              	            	                    	-99	89662	 -9999	-9999	            	 0	 0	 1	608efec9fa9b5fbf38d26d2c1814e43a
+2933	Priestley Gl                            	 -74.30000	 163.20000	 650.00000	 0.05000	 0.05000	   0.50000	Antarctica                              	            	                    	-99	 7352	 -9999	-9999	            	 0	 0	 1	fa4182f06f006fc6f0e2f379d627f254
+2936	Tourmaline Plateau                      	 -74.10000	 163.40000	1702.00000	 0.05000	 0.05000	   0.50000	Antarctica                              	            	                    	-99	 7356	 -9999	-9999	            	 0	 0	 1	26c8734df56b5a0abd1ac861e117ae1c
+2941	Hi Priestley Gl                         	 -73.60000	 160.70000	1982.00000	 0.05000	 0.05000	   0.50000	Antarctica                              	            	                    	-99	89659	 -9999	-9999	            	 0	 0	 1	3832dddf4efca4c44a66e1d8e5c0581a
+2942	Cape King                               	 -73.60000	 166.60000	 163.00000	 0.05000	 0.05000	   0.50000	Antarctica                              	            	                    	-99	 7351	 -9999	-9999	            	 0	 0	 1	058a72b23bec704a639f07c7078e3e80
+2944	LGB59                                   	 -73.50000	  76.78000	2565.00000	 0.00500	 0.00500	   0.50000	Antarctica                              	            	                    	-99	89774	 -9999	-9999	            	 0	 0	 1	31fb7db683af77975a1a6146b4ce9b3a
+2948	Cape Philips                            	 -73.10000	 169.60000	 310.00000	 0.05000	 0.05000	   0.50000	Antarctica                              	            	                    	-99	89661	 -9999	-9999	            	 0	 0	 1	e06d2e6314becd0c62aa6a4cdb80abed
+2979	D 80                                    	 -70.00000	 134.90000	2500.00000	 0.05000	 0.05000	   0.50000	Antarctica                              	            	                    	-99	89836	 -9999	-9999	            	 0	 0	 1	091d7baf9acb24cc28909a9faf540bf6
+2990	GEO3                                    	 -68.70000	  61.10000	1835.00000	 0.05000	 0.05000	   0.50000	Antarctica                              	            	                    	-99	89762	 -9999	-9999	            	 0	 0	 1	e839beff9e90f1d94fc793eb9764748f
+2999	D 57                                    	 -68.10000	 137.50000	2105.00000	 0.05000	 0.05000	   0.50000	Antarctica                              	            	                    	-99	 8916	 -9999	-9999	            	 0	 0	 1	5733d2a7da3f0b2643c6429b85ad4512
+3005	D 47                                    	 -67.40000	 138.70000	1560.00000	 0.05000	 0.05000	   0.50000	Antarctica                              	            	                    	-99	89834	 -9999	-9999	            	 0	 0	 1	74362031db41d0ae057b833107fa39ae
+3008	Sutton                                  	 -67.10000	 141.40000	 871.00000	 0.05000	 0.05000	   0.50000	Antarctica                              	            	                    	-99	 8939	 -9999	-9999	            	 0	 0	 1	bcf4577cca101f9f29b4e384c6520889
+3010	Cape Denison                            	 -67.00000	 142.70000	  31.00000	 0.05000	 0.05000	   0.50000	Antarctica                              	            	                    	-99	 8988	 -9999	-9999	            	 0	 0	 1	ec8ef851e2a3470db51fb425e979c801
+3012	Larsen Ice Shelf                        	 -66.90000	 -60.90000	  17.00000	 0.05000	 0.05000	   0.50000	Antarctica                              	            	                    	-99	89262	 -9999	-9999	            	 0	 0	 1	8af53ac9d87b46cb76686656ab4ed142
+3018	D 10                                    	 -66.70000	 139.80000	 240.00000	 0.05000	 0.05000	   0.50000	Antarctica                              	            	                    	-99	89832	 -9999	-9999	            	 0	 0	 1	ff4e8c157e91985c75f14fe6fccfca9b
+3031	Casey New Airstrip                      	 -66.30000	 110.80000	 390.00000	 0.05000	 0.05000	   0.50000	Antarctica                              	            	                    	-99	89612	 -9999	-9999	            	 0	 0	 1	0ce93eba59f7bcd879cedce398f19942
+3040	Santa Claus Island                      	 -65.00000	 -65.70000	  25.00000	 0.05000	 0.05000	   0.50000	Antarctica                              	            	                    	-99	 8910	 -9999	-9999	            	 0	 0	 1	c6be8117ff062be326a62435253b5fe6
+3068	Marsh                                   	 -62.20000	 -58.90000	  10.00000	 0.05000	 0.05000	   0.50000	Antarctica                              	            	                    	-99	89056	 -9999	-9999	            	 0	 0	 1	1e3f67f5ecb7c7ad26ab5567bb8a71bf
+3080	Campbell                                	 -52.00000	 169.00000	  19.00000	 0.50000	 0.50000	   0.50000	Antarctica                              	            	                    	-99	93947	 -9999	-9999	            	 0	 0	 1	b803920b2906f2ecdb4cf9306ac64b9b
+81315	Amundsen Scott                          	 -90.00000	   0.00000	2835.00000	 5.00000	 5.00000	   0.50000	Antarctica                              	            	                    	-99	89009	 -9999	-9999	            	 0	 0	 1	92b06dc0ea605b6a7c6a2522c318ac6f
+81316	Clean Air                               	 -90.00000	   0.00000	2835.00000	 5.00000	 5.00000	   0.50000	Antarctica                              	            	                    	-99	89208	 -9999	-9999	            	 0	 0	 1	aff67a54c2ade278ec202b21516fb83e
+81317	Henry                                   	 -89.00000	  -1.00000	2754.00000	 0.50000	 0.50000	   0.50000	Antarctica                              	            	                    	-99	89108	 -9999	-9999	            	 0	 0	 1	5885703121608355855da5feaa44b989
+81318	Nico                                    	 -89.00000	  89.70000	3065.00000	 0.05000	 0.05000	   0.50000	Antarctica                              	            	                    	-99	89799	 -9999	-9999	            	 0	 0	 1	49b706231442a3ff1a3394f91bf376a6
+81319	Theresa                                 	 -84.60000	-115.80000	1463.00000	 0.05000	 0.05000	   0.50000	Antarctica                              	            	                    	-99	89314	 -9999	-9999	            	 0	 0	 1	fb58f07a19902282b93680d169760c62
+81320	Elaine                                  	 -83.10000	 174.20000	  60.00000	 0.05000	 0.05000	   0.50000	Antarctica                              	            	                    	-99	89873	 -9999	-9999	            	 0	 0	 1	34dce37df63ec99660b745062e37c3b2
+81321	Harry                                   	 -83.00000	-121.40000	 954.00000	 0.05000	 0.05000	   0.50000	Antarctica                              	            	                    	-99	89329	 -9999	-9999	            	 0	 0	 1	bf4840f3b37bdea064676c615c85d304
+81322	Elizabeth                               	 -82.60000	-137.10000	 549.00000	 0.05000	 0.05000	   0.50000	Antarctica                              	            	                    	-99	89332	 -9999	-9999	            	 0	 0	 1	37ebcea15f075fcddb1894bac009555d
+81323	Lettau                                  	 -82.50000	-174.40000	  55.00000	 0.05000	 0.05000	   0.50000	Antarctica                              	            	                    	-99	89377	 -9999	-9999	            	 0	 0	 1	182a839a28f0c2f9984534bbcf408f6c
+81324	Gill                                    	 -80.00000	-178.60000	  30.00000	 0.05000	 0.05000	   0.50000	Antarctica                              	            	                    	-99	89376	 -9999	-9999	            	 0	 0	 1	0ca8e7cb2ca633c11e6d2e8b1ae5f674
+81325	Byrd                                    	 -80.00000	-120.00000	1515.00000	 5.00000	 5.00000	   0.50000	Antarctica                              	            	                    	-99	89125	 -9999	-9999	            	 0	 0	 1	ff7111565e2b78b766d2f931a7d98f8c
+81326	Byrd                                    	 -80.00000	-119.40000	1530.00000	 0.05000	 0.05000	   0.50000	Antarctica                              	            	                    	-99	89324	 -9999	-9999	            	 0	 0	 1	ac5dd0652b4516565a00010d07b90707
+81327	Marilyn                                 	 -80.00000	 165.10000	  75.00000	 0.05000	 0.05000	   0.50000	Antarctica                              	            	                    	-99	89869	 -9999	-9999	            	 0	 0	 1	a6deba8de9350536e06c5d1beccaf42c
+81328	Schwerdtfeger                           	 -79.90000	 170.00000	  60.00000	 0.05000	 0.05000	   0.50000	Antarctica                              	            	                    	-99	89868	 -9999	-9999	            	 0	 0	 1	0cf7116fbcf2edc69600fe8dec60bdb7
+81329	Minna Bluff                             	 -78.60000	 166.70000	  50.00000	 0.05000	 0.05000	   0.50000	Antarctica                              	            	                    	-99	89768	 -9999	-9999	            	 0	 0	 1	ebb274474bdfe82ff0d335ce5a48e598
+81330	Vostok                                  	 -78.50000	 106.90000	3490.00000	 0.05000	 0.05000	   0.50000	Antarctica                              	            	                    	-99	89606	 -9999	-9999	            	 0	 0	 1	7fedf5642316345752fc8a7f51832492
+81331	Linda                                   	 -78.50000	 168.40000	  50.00000	 0.05000	 0.05000	   0.50000	Antarctica                              	            	                    	-99	89769	 -9999	-9999	            	 0	 0	 1	9a5e9ccce31b4a90a31622fcebe19cd9
+81332	Belgrano II                             	 -77.90000	 -34.60000	 256.00000	 0.05000	 0.05000	   0.50000	Antarctica                              	            	                    	-99	89034	 -9999	-9999	            	 0	 0	 1	20eaca5b370aee00a7c05efe77e655d6
+81333	Pegasus North                           	 -77.90000	 166.50000	  20.00000	 0.05000	 0.05000	   0.50000	Antarctica                              	            	                    	-99	89667	 -9999	-9999	            	 0	 0	 1	dd58c0ca62b498cfa42565e0dc864742
+81334	Scott Base                              	 -77.90000	 166.70000	  16.00000	 0.05000	 0.05000	   0.50000	Antarctica                              	            	                    	-99	89665	 -9999	-9999	            	 0	 0	 1	53732d5e572ca9316f974494eb22a37e
+81335	McMurdo                                 	 -77.90000	 166.70000	  24.00000	 0.05000	 0.05000	   0.50000	Antarctica                              	            	                    	-99	89664	 -9999	-9999	            	 0	 0	 1	7d3097647307706d37dbd3f764abb3e8
+81336	Ferrell                                 	 -77.90000	 170.80000	  45.00000	 0.05000	 0.05000	   0.50000	Antarctica                              	            	                    	-99	89872	 -9999	-9999	            	 0	 0	 1	b8dba1f83d6ce4f5c729ad7f3951c9ef
+81337	Marble Point                            	 -77.40000	 163.70000	 120.00000	 0.05000	 0.05000	   0.50000	Antarctica                              	            	                    	-99	89866	 -9999	-9999	            	 0	 0	 1	f269a3a1be2e22c77f4c08e914a72919
+81338	Dome F                                  	 -77.30000	  39.70000	3810.00000	 0.05000	 0.05000	   0.50000	Antarctica                              	            	                    	-99	89734	 -9999	-9999	            	 0	 0	 1	b362b82b1d6d33929c4aa4a5e31d4091
+81339	Cape Ross                               	 -76.70000	 163.00000	 201.00000	 0.05000	 0.05000	   0.50000	Antarctica                              	            	                    	-99	89666	 -9999	-9999	            	 0	 0	 1	2fb7572b8ec35b75c83d400a933fee7b
+81340	Whitlock                                	 -76.20000	 168.40000	 275.00000	 0.05000	 0.05000	   0.50000	Antarctica                              	            	                    	-99	89865	 -9999	-9999	            	 0	 0	 1	89d1906f98a7383c9c0dfee73504054a
+81341	Siple                                   	 -75.90000	 -84.00000	1054.00000	 0.05000	 0.05000	   0.50000	Antarctica                              	            	                    	-99	89284	 -9999	-9999	            	 0	 0	 1	39383af1ff290bbed2c502e0f860b522
+81342	Halley                                  	 -75.50000	 -26.40000	  30.00000	 0.05000	 0.05000	   0.50000	Antarctica                              	            	                    	-99	89022	 -9999	-9999	            	 0	 0	 1	4f0ce4086f0751acdb4f2af8a1aaa8c9
+81343	Dome C II                               	 -75.10000	 123.40000	3280.00000	 0.05000	 0.05000	   0.50000	Antarctica                              	            	                    	-99	89828	 -9999	-9999	            	 0	 0	 1	2a14119da2f68c3bb4b5c30a65c816ae
+81344	Manuela                                 	 -74.90000	 163.70000	  80.00000	 0.05000	 0.05000	   0.50000	Antarctica                              	            	                    	-99	89864	 -9999	-9999	            	 0	 0	 1	db4e4933556747bb7c5e2e5be2aeb92c
+81345	Russkaya                                	 -74.80000	-136.90000	 124.00000	 0.05000	 0.05000	   0.50000	Antarctica                              	            	                    	-99	89132	 -9999	-9999	            	 0	 0	 1	c47869ced1535ace14b8cb1ab821db97
+81346	Lynn                                    	 -74.20000	 160.40000	1772.00000	 0.05000	 0.05000	   0.50000	Antarctica                              	            	                    	-99	89860	 -9999	-9999	            	 0	 0	 1	9357ff6a4bc6a488cc035e9fe9a34846
+81347	Relay Station                           	 -74.00000	  43.10000	3353.00000	 0.05000	 0.05000	   0.50000	Antarctica                              	            	                    	-99	89744	 -9999	-9999	            	 0	 0	 1	8685cab408cedd461d02a394d5dd4b6a
+81348	LGB20                                   	 -73.80000	  55.70000	2743.00000	 0.05000	 0.05000	   0.50000	Antarctica                              	            	                    	-99	89757	 -9999	-9999	            	 0	 0	 1	53085a203c02d1911650f3127ee0ac22
+81349	Mount Siple                             	 -73.20000	-127.10000	  30.00000	 0.05000	 0.05000	   0.50000	Antarctica                              	            	                    	-99	89327	 -9999	-9999	            	 0	 0	 1	929342fc102bf946bf6d940c0a8655e7
+81350	Drescher                                	 -72.87000	 -19.03000	  34.00000	 0.00500	 0.00500	   0.50000	Antarctica                              	            	                    	-99	89214	 -9999	-9999	            	 0	 0	 1	8bab466d72cff88f4b82e7883aef53e9
+81351	Butler Island                           	 -72.20000	 -60.20000	  91.00000	 0.05000	 0.05000	   0.50000	Antarctica                              	            	                    	-99	89266	 -9999	-9999	            	 0	 0	 1	dc1e497931c0396769cf21563930b588
+81352	Possession Island                       	 -71.90000	 171.20000	  30.00000	 0.05000	 0.05000	   0.50000	Antarctica                              	            	                    	-99	89879	 -9999	-9999	            	 0	 0	 1	dcba2740f2aae0d5ab8bb697f1a1a81b
+81353	GC41                                    	 -71.60000	 111.30000	2763.00000	 0.05000	 0.05000	   0.50000	Antarctica                              	            	                    	-99	89813	 -9999	-9999	            	 0	 0	 1	9f6585af45b1269042f071d1c466aab9
+81354	Asuka                                   	 -71.50000	  24.10000	 931.00000	 0.05000	 0.05000	   0.50000	Antarctica                              	            	                    	-99	89524	 -9999	-9999	            	 0	 0	 1	a0ffe84ee7a77c85d3c5ae547c467483
+81355	Uranus Glacier                          	 -71.40000	 -68.90000	 780.00000	 0.05000	 0.05000	   0.50000	Antarctica                              	            	                    	-99	89264	 -9999	-9999	            	 0	 0	 1	4ec3ac1d154580523ce22f42d44bf9bb
+81356	LGB10                                   	 -71.30000	  59.20000	2619.00000	 0.05000	 0.05000	   0.50000	Antarctica                              	            	                    	-99	89758	 -9999	-9999	            	 0	 0	 1	37469c42d4d0b2c75421fd4ff983e1ed
+81357	Novolazarevskaya                        	 -70.80000	  11.80000	 119.00000	 0.05000	 0.05000	   0.50000	Antarctica                              	            	                    	-99	89512	 -9999	-9999	            	 0	 0	 1	9838cf1fa7540482133c0eae3ed47f2d
+81358	Neumayer                                	 -70.70000	  -8.40000	  50.00000	 0.05000	 0.05000	   0.50000	Antarctica                              	            	                    	-99	89002	 -9999	-9999	            	 0	 0	 1	622f6732fc4d05f491124a6f3f98c616
+81359	Leningradskaja                          	 -69.50000	 159.40000	 304.00000	 0.05000	 0.05000	   0.50000	Antarctica                              	            	                    	-99	89657	 -9999	-9999	            	 0	 0	 1	618c48a0a5fc0477df58ca340accf6a9
+81360	Zhongshan                               	 -69.40000	  76.40000	  18.00000	 0.05000	 0.05000	   0.50000	Antarctica                              	            	                    	-99	89573	 -9999	-9999	            	 0	 0	 1	9dbc6a6cbd34e2c3711ed54d107822c9
+81361	Syowa                                   	 -69.00000	  39.60000	  21.00000	 0.05000	 0.05000	   0.50000	Antarctica                              	            	                    	-99	89532	 -9999	-9999	            	 0	 0	 1	aecef763af80fac6375ff0b916a096b2
+81362	Davis                                   	 -68.60000	  78.00000	  13.00000	 0.05000	 0.05000	   0.50000	Antarctica                              	            	                    	-99	89571	 -9999	-9999	            	 0	 0	 1	23611e5bfc676f15c1fd013fa5134d14
+81363	GF08                                    	 -68.50000	 102.10000	2125.00000	 0.05000	 0.05000	   0.50000	Antarctica                              	            	                    	-99	89803	 -9999	-9999	            	 0	 0	 1	779a7759f581608b136ff931c58524a3
+81364	San Martin                              	 -68.10000	 -67.10000	   4.00000	 0.05000	 0.05000	   0.50000	Antarctica                              	            	                    	-99	89066	 -9999	-9999	            	 0	 0	 1	1d3c782fa704f25421b1a7ee17362305
+81365	Adelaide                                	 -67.80000	 -68.90000	  26.00000	 0.05000	 0.05000	   0.50000	Antarctica                              	            	                    	-99	88958	 -9999	-9999	            	 0	 0	 1	ad9d0f337d2920dd32ca62a2359f28e6
+81366	Molodeznaja                             	 -67.70000	  45.90000	  40.00000	 0.05000	 0.05000	   0.50000	Antarctica                              	            	                    	-99	89542	 -9999	-9999	            	 0	 0	 1	f4fb5f59c2fb55279542fedba0244004
+81367	Mawson                                  	 -67.60000	  62.90000	  16.00000	 0.05000	 0.05000	   0.50000	Antarctica                              	            	                    	-99	89564	 -9999	-9999	            	 0	 0	 1	4036c20a1e5f71dffe774161674165bf
+81368	Penguin Point                           	 -67.60000	 146.20000	  30.00000	 0.05000	 0.05000	   0.50000	Antarctica                              	            	                    	-99	89847	 -9999	-9999	            	 0	 0	 1	624dfb85a57e024f96a704661f5b3f7d
+81369	Rothera                                 	 -67.50000	 -68.10000	  32.00000	 0.05000	 0.05000	   0.50000	Antarctica                              	            	                    	-99	89062	 -9999	-9999	            	 0	 0	 1	3623c4186325aa69a6c64755977a22c9
+81370	Scott Island                            	 -67.40000	-180.00000	  30.00000	 0.05000	 0.05000	   0.50000	Antarctica                              	            	                    	-99	89371	 -9999	-9999	            	 0	 0	 1	61f4e3c0ba5eb74922a49fd17509d068
+81371	Port Martin                             	 -66.80000	 141.40000	  39.00000	 0.05000	 0.05000	   0.50000	Antarctica                              	            	                    	-99	89643	 -9999	-9999	            	 0	 0	 1	595fd69ef53275bab856a5ddaa205ef4
+81372	Law Dome Summit                         	 -66.70000	 112.70000	1368.00000	 0.05000	 0.05000	   0.50000	Antarctica                              	            	                    	-99	89811	 -9999	-9999	            	 0	 0	 1	d369f57a9a8efebf3cff9c3b57b97de3
+81373	Dumont Durville                         	 -66.70000	 140.00000	  43.00000	 0.05000	 0.05000	   0.50000	Antarctica                              	            	                    	-99	89642	 -9999	-9999	            	 0	 0	 1	ca2bf920ae2522982846c568e704332d
+81374	Mirny                                   	 -66.50000	  93.00000	  30.00000	 0.05000	 0.05000	   0.50000	Antarctica                              	            	                    	-99	89592	 -9999	-9999	            	 0	 0	 1	6da64a70f57404f15ecd123ae1cd4388
+81375	Casey                                   	 -66.30000	 110.50000	  42.00000	 0.05000	 0.05000	   0.50000	Antarctica                              	            	                    	-99	89611	 -9999	-9999	            	 0	 0	 1	ed09d58f3c09b41b74c749965af87911
+81376	Casey Airstrip                          	 -66.30000	 110.80000	 392.00000	 0.05000	 0.05000	   0.50000	Antarctica                              	            	                    	-99	89810	 -9999	-9999	            	 0	 0	 1	e33a64c775c9e0a447547865041589fe
+81377	Bonaparte Point                         	 -64.80000	 -64.10000	   8.00000	 0.05000	 0.05000	   0.50000	Antarctica                              	            	                    	-99	89269	 -9999	-9999	            	 0	 0	 1	637fa96f5624f00c796927f791a9330b
+81378	Marambio                                	 -64.20000	 -56.70000	 198.00000	 0.05000	 0.05000	   0.50000	Antarctica                              	            	                    	-99	89055	 -9999	-9999	            	 0	 0	 1	67dfee5ec3cf269642bd5286648d056f
+81379	Racer Rock                              	 -64.10000	 -61.60000	  17.00000	 0.05000	 0.05000	   0.50000	Antarctica                              	            	                    	-99	89261	 -9999	-9999	            	 0	 0	 1	dffec91e4b4732e014e1b3618e32b93b
+81380	Esperanza                               	 -63.40000	 -57.00000	  13.00000	 0.05000	 0.05000	   0.50000	Antarctica                              	            	                    	-99	88963	 -9999	-9999	            	 0	 0	 1	7a4e8b984a88d02737403e353fc61e47
+81381	O Higgins                               	 -63.30000	 -57.90000	  10.00000	 0.05000	 0.05000	   0.50000	Antarctica                              	            	                    	-99	89059	 -9999	-9999	            	 0	 0	 1	a04d0e0adaa1b9ce76f71603f49b6422
+81382	Deception                               	 -63.00000	 -60.70000	   8.00000	 0.05000	 0.05000	   0.50000	Antarctica                              	            	                    	-99	88938	 -9999	-9999	            	 0	 0	 1	09eb990e48581eb843c9b955c6123a23
+81383	Arturo Prat                             	 -62.50000	 -59.70000	   5.00000	 0.05000	 0.05000	   0.50000	Antarctica                              	            	                    	-99	89057	 -9999	-9999	            	 0	 0	 1	77cf0d2c9671540a681863998d8695e8
+81384	Great Wall                              	 -62.20000	 -59.00000	  10.00000	 0.05000	 0.05000	   0.50000	Antarctica                              	            	                    	-99	89058	 -9999	-9999	            	 0	 0	 1	936d7ca3dc610c6bd5ef179d76e739f8
+81385	Bellingshausen                          	 -62.20000	 -58.90000	  16.00000	 0.05000	 0.05000	   0.50000	Antarctica                              	            	                    	-99	89050	 -9999	-9999	            	 0	 0	 1	1cdc52e5739a9c320db5843c4bdf4061
+81386	King Sejong                             	 -62.20000	 -58.70000	  11.00000	 0.05000	 0.05000	   0.50000	Antarctica                              	            	                    	-99	89251	 -9999	-9999	            	 0	 0	 1	76a26b6767c230fcb23af0a0e179f2c9
+81387	Jubany                                  	 -62.20000	 -58.60000	   4.00000	 0.05000	 0.05000	   0.50000	Antarctica                              	            	                    	-99	89053	 -9999	-9999	            	 0	 0	 1	4481a9247d6ab3c10ed22f616bb8a10e
+81388	Ferraz                                  	 -62.10000	 -58.40000	  20.00000	 0.05000	 0.05000	   0.50000	Antarctica                              	            	                    	-99	89252	 -9999	-9999	            	 0	 0	 1	48d479640ca231c520ec4698e0735901
+81389	Signy                                   	 -60.70000	 -45.60000	   6.00000	 0.05000	 0.05000	   0.50000	Antarctica                              	            	                    	-99	89042	 -9999	-9999	            	 0	 0	 1	02e28a69eec0fd603e76203c85a089dd
+81390	Orcadas                                 	 -60.70000	 -44.70000	   6.00000	 0.05000	 0.05000	   0.50000	Antarctica                              	            	                    	-99	88968	 -9999	-9999	            	 0	 0	 1	61ad827e1c9d04882f4ae9cb71c5d102
+81391	Macquarie                               	 -54.50000	 158.90000	   8.00000	 0.05000	 0.05000	   0.50000	Antarctica                              	            	                    	-99	94998	 -9999	-9999	            	 0	 0	 1	3ff1865560b5311ea347d4fbea6e32b7
+81392	Grytviken                               	 -54.30000	 -36.50000	   3.00000	 0.05000	 0.05000	   0.50000	Antarctica                              	            	                    	-99	88903	 -9999	-9999	            	 0	 0	 1	3a95008ca1b0b811008dde06220d6f56
+81393	Marion                                  	 -46.80000	  37.80000	  24.00000	 0.05000	 0.05000	   0.50000	Antarctica                              	            	                    	-99	68994	 -9999	-9999	            	 0	 0	 1	063fb5926ff3cb069504708741069163
+81394	Gough                                   	 -40.40000	  -9.90000	  54.00000	 0.05000	 0.05000	   0.50000	Antarctica                              	            	                    	-99	68906	 -9999	-9999	            	 0	 0	 1	f023cfb87fc152ca788fa398d507155e
