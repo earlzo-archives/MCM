@@ -1,0 +1,16 @@
+Dear Mr. Alpha Chiang:\\
+We identified an optimal investment strategy which identifies schools, investment amount per school, return on that investment(ROI), and time duration during these days. Now, let me tell you our modeling approach and major results.\par
+The first step was to analyze and process the data the problem provides. It appears a number of ''NULL'' results, which is defined as the lack of properties in some schools rather than missing data. We employed Principal Component Analysis (PCA) to reduce dimensions of big data and get some principal components. Then combining with ROI and funds utilization, we can formulate an evaluation model based on Analytical Hierarchy Process (AHP) to obtain the primary list of candidate schools.\par
+Then we defined the ROI. We regard ROI as the degree of graduates’ contributions to the society. Combining with the data we capture, we define a formula for ROI. The data which is related to ROI have income, academic achievement and so on. We processed the data by different types we classified. We imitated the ROI in the financial sector to get our “ROI”. The result is showed as follows:
+
+ROI定义式
+符号说明
+
+We calculated the ROI of every school. We used the results to test the results we have gotten from AHP. The compared results were showed as follows:
+
+两个方法部分结果对比
+
+We build an investment portfolio optimization model to determine the investment schools and the investment amount per school with hybrid particle swarm algorithm(PSO). In order to analyze the problem explicitly, we build a basic model. We hypothesis that the time duration for investment of all schools is all five years. Then we formulate a multi-objective optimization model for the aim of getting the maximum return. Through the method of PSO, We extend our model with taking the change of time duration into consideration. We divide the time duration into five parts. The time duration of each school decides on its ROI. The relationship among variables becomes more complicate. So we build a portfolio investment dynamic model. This model takes all the relation into consideration to increase the reliability of our results. \par
+Eventually, we present the investment strategy is as follows:
+
+结果表格

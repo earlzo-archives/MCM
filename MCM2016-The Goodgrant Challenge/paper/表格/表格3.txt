@@ -1,0 +1,21 @@
+\begin{table}[H] \renewcommand\arraystretch{1.5}
+    \begin{center}
+        \begin{footnotesize}
+\begin{tabular}{cll}\toprule
+Rank               &ROI                       &AHP\\\hline
+1& Michigan State University                  &Texas AM University-College Station\\
+2&Texas AM University-College Station         &University of Wisconsin-Madison\\
+3&Pennsylvania State University-Main Campus   &University of Central Florida\\
+4&University of California-Berkeley           &Michigan State University\\
+5&University of Central Florida               &University of Illinois at Urbana-Champaign\\
+6&University of California-Los Angeles        &Ohio State University-Main Campus\\
+7&Ohio State University-Main Campus           &University of California-Berkeley\\
+8&University of Florida                       &Florida State University\\
+9&The University of Texas at Austin           &Arizona State University-Tempe\\
+10&University of Illinois at Urbana-Champaign  &University of Washington-Seattle Campus\\\bottomrule
+\end{tabular}
+  \end{footnotesize}
+\end{center}
+ \caption{\footnotesize {Symbols Used in This Section}}
+        \label{tab.t1}%可有可无
+\end{table}

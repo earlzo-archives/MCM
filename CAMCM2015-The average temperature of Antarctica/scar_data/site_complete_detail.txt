@@ -1,0 +1,311 @@
+% File Generated: 02-Feb-2012 01:22:39
+% Dataset Collection: Scientific Committee on Antarctic Research
+% Type: TAVG - Monthly
+% Version: LATEST
+% Dataset Hash: e0e288f6c3f347cf7f7b2e1ba302faa2
+% 
+% ------------------------------------
+% 
+% The associated dataset name is shown above, while this file should have the 
+% name
+% 
+% 	site_complete_detail.txt
+% 
+% For general information about this data product, please refer to the data set 
+% readme file: README.txt
+% 
+% The current file is the "site_complete_detail" export, which contains a 
+% detailed summary of the stations appearing in this dataset.  Information is 
+% presented in tab delimited columnar format.  Primary temperature data, 
+% secondary data such as quality control flags, and other metadata can be found 
+% in other files in the same directory and should be distributed together.
+% 
+% In addition, the files:
+% 
+% 	site_summary.txt
+% 	site_detail.txt
+% 
+% Provide alternative ways to access information regarding each site and may be 
+% used in place of this file.  The current file is meant as an exhaustive 
+% accounting of the information about each station, and may be more detailed than 
+% is necessary for many uses.  For synthesis information please refer to 
+% site_detail.txt.
+% 
+% For each site presented here, there are a number of location reports.  Each 
+% location report comes from a specific source and in many cases they reflect a 
+% specific time interval during which the associated location metadata is 
+% supposed to be valid.  In this way changes in station location and identity can 
+% be described through time.
+% 
+% The columns contained in this file are as follows:
+% 
+% 	Station ID: A unique integer identifying each station
+% 
+% 	Report Number: An index to the metadata report.
+% 
+% 	Station Name: The station name used in the report.
+% 
+% 	Country: The country that the station was located in at that time.  In some 
+% cases non-sovereign territories are designated when they are geographically 
+% isolated from their parent country.  For example, the Carribean island of 
+% Martinique, administered by France, is designated as "Martinique [France]".  
+% The code "[Missing]" is used if the country is not known.
+% 
+% 	Record Start Date: Specifies the earliest time for which the report is 
+% expected to apply.  If the earliest time is unknown, a value of -9999 is used.
+% 
+% 	Record End Date: Specifies the most recent time for which the report is 
+% expected to apply.  If the most recent time is unknown, a value of -9999 is 
+% used.
+% 
+% 	Source: The name of the source from which the metadata record was taken.
+% 
+% 	Latitude: The latitude of the station in degrees and decimal fraction of a 
+% degree.  Latitudes run from -90 to +90, where negative numbers indicate 
+% positions in the southern hemisphere.  Missing values are reported as -999.
+% 
+% 	Longitude: The longitude of the station in degrees and decimal fraction of a 
+% degree.  Longitudes run from -180 to +180, where negative numbers indicate 
+% positions in the western hemisphere.  Missing values are reported as -999.
+% 
+% 	Elevation: The reported elevation of the station in meters above mean sea 
+% level.  Missing values are reported as -999.
+% 
+% 	Alternate Elevation: The reported alternative elevation of the station in 
+% meters above mean sea level as reported by the source.  The nature of the 
+% alternative elevation report varies by source.  A typical example might be a 
+% third party map reference elevation for the stated latitude and longitude.  
+% Missing values are reported as -999.
+% 
+% 	Latitude Uncertainty: The estimated uncertainty on the reported latitude.  
+% Where possible this is based on appropriate metadata; however, in many cases it 
+% is simply a reflection of the precision with which the latitude was reported.  
+% Undetermined values are reported as -9.999.
+% 
+% 	Longitude Uncertainty: The estimated uncertainty on the reported longitude.  
+% Where possible this is based on appropriate metadata; however, in many cases it 
+% is simply a reflection of the precision with which the longitude was reported.  
+% Undetermined values are reported as -9.999.
+% 
+% 	Elevation Uncertainty: The estimated uncertainty on the station elevation.  
+% Where possible this is based on appropriate metadata; however, in many cases it 
+% is simply a reflection of the precision with which the elevation was reported.  
+% Undetermined values are reported as -9.999.
+% 
+% 	Relocations Flag: A flag whose values is "1" if the issuing agency explicitly 
+% declared that this report represents a relocation of the temperature station.  
+% Value is "0" otherwise.
+% 
+% 	State / Province Code: A code indicating the state, province, or similar 
+% political subdivision of the designated country that the station is located in. 
+% In most cases these use two letter codes and reflect conventional designations 
+% within the designated country.  Missing and unspecified values are blank.  
+% 
+% 	County: The name of the county, or similar political subdivision, that the 
+% station is located in.  This field is usually blank except for some stations in 
+% the United States.
+% 
+% 	Time Zone: The UTC offset of local standard time at the location of the 
+% station, if known.  A value of -99 is used to indicate missing values.
+% 
+% 	WMO ID: The World Meteorological Organization identification number assigned 
+% to the station, if any.  Stations which do not have or fail to report a WMO ID 
+% are assigned a value of -9999.  
+% 
+% 	Coop ID: Identification number assigned as part of the United States 
+% Cooperative Observer Network.  The first two digits are specific to the state 
+% or territory the station resides in.  Missing values are assigned value -9999.
+% 
+% 	WBAN ID: The Weather Bureau / Army / Navy identification number assigned to 
+% the station, if any.  Missing values reported as -9999.
+% 
+% 	ICAO ID: The International Civil Aviation Organization identification code.  
+% This is a four letter code usually only assigned to airports.  Missing values 
+% are left blank.  
+% 
+% 	USAF ID: The USAF identification code.  This is a six digit code where the 
+% first five digits are often the same as the WMO ID.  Sites that are also WMO 
+% stations will typically have "0" for the final digit.  Missing values are 
+% assigned value -9999.
+% 
+% 	NCDC ID: Eight digit identifier code used in the National Climate Data Center 
+% Multi-Network Metadata System.  Missing values are assigned value -9999.
+% 
+% 	Instrument Type: Kind of instrument used.  This field is currently unused but 
+% is reserved for future use.
+% 
+% 	Other Ids: String used to encode other id codes used for this station.  Such 
+% ids are often specific to the originating database.
+% 
+% 	Archive Key: This string is a unique alphanumeric identifier used by Berkeley 
+% Earth to identify the originating dataset and entry for this report.
+% 
+% 	Hash: A 128-bit MD5 hash expressed as a hexadecimal string.  This hash is 
+% derived from the record's metadata, and hence uniquely identifies the record.  
+% The intended use of this field is as an aid to help identify changes in station 
+% metadata.
+% 
+% 
+% 
+% Comments regarding metadata merging:
+% 
+% The process of identifying when the station reported in one data set is the 
+% same as the station reported in another data set is complex and relies on 
+% comparisons of data and metadata.  Full details will be presented elsewhere; 
+% however, some overview comments are provided here to help the user understand 
+% this data.
+% 
+% The process of merging data from different sources is largely automated and is 
+% believed to be efficient, but it is not perfect.  There will be cases where two 
+% records should have been recognized as the same site, but weren't recognized as 
+% the same.  Similarly, there will be some cases where a merge occured 
+% erroneously.  It is believed that error rate from both types of problems is 
+% small, though it has not yet been fully quantified.
+% 
+% Temperature station site records are intended to be associated with a single 
+% station having a fixed location.  However, historical observers have at times 
+% relocated stations even while continuing to use the same station names and ID 
+% codes.  Such relocation events are known to introduce discontinuities in 
+% temperature records that advanced users of this data set may need to be aware 
+% of and investigate.  Information of station moves can be gained from this file 
+% and is further summarized in the "station_changes.txt" file.
+% 
+% A further confounding factor is that historical datasets have in some cases 
+% combined data from distinct stations together in order to form longer synthetic 
+% records.  These combination records may then have been further copied and 
+% combined without clear documentation of the fact that they represent data from 
+% several different stations.  As one begins to unwind such combinations it is 
+% not unusual to find that the data is associated with multiple identifiers (such 
+% as WMO or COOP ID codes) that in principle ought to be unique.  Similarly 
+% confounding, there have been a number of occurrences where WMO and other codes 
+% have been reassigned or reused.
+% 
+% An extreme example of such historical merging has occured with "Washington 
+% National Airport", where composite records were formed by combining data from 
+% the airports now known as "Washington Dulles" and "Washington Reagan" with 
+% historical records from "Hoover Field" and "Bolling Field".  This occured even 
+% though these distinct airports are separated by up to 20 miles.  It is 
+% difficult at this point to unwind which data values originally came from each 
+% site.  At the moment, data that was merged together in upstream data sets will 
+% generally remain merged in our data product.  Reviewing this data file can help 
+% to identify examples of such merging.  When multiple records across disperse 
+% locations have been combined, the summary data in "site_detail.txt" will assign 
+% a large uncertainty to latitude and longitude sufficient to encompass the 
+% multiple locations used.
+% 
+% Users of this dataset who wish to understand the history of individual sites 
+% are encouraged to review the data in this file to help begin to reach that 
+% understanding.  Though many weather stations have uncomplicated histories, a 
+% few have had very complicated histories indeed.
+% 
+% 
+% ------------------------------------
+% Station ID, Report Number, Station Name, Country, Record Start Date, Record End Date, Source, Latitude, Longitude, Elevation (m), Alternative Elevation (m), Lat. Uncertainty, Long. Uncertainty, Elev. Uncertainty (m), Relocation Flag, State / Province Code, County, Time Zone, WMO ID, Coop ID, WBAN ID, ICAO ID, USAF ID, NCDC ID, Instrument Type, Other IDs, Archive Key, Hash
+% 
+  2846	  1	Erin                                    	Antarctica                              	-9999.000	-9999.000	Scientific Committee on Antarctic Research        	 -84.90000	-128.80000	 990.00000	-999.00000	 0.05000	 0.05000	   0.50000	  0	            	                    	-99	21363	 -9999	-9999	      	  -9999	          	     	                    	SCAR_21363                              	ce249402f060e521c62345c5cf6ff7dc
+  2858	  1	Doug                                    	Antarctica                              	-9999.000	-9999.000	Scientific Committee on Antarctic Research        	 -82.30000	-113.20000	1433.00000	-999.00000	 0.05000	 0.05000	   0.50000	  0	            	                    	-99	21359	 -9999	-9999	      	  -9999	          	     	                    	SCAR_21359                              	b734059e9b4cb6ebef35fdf1e78aaef6
+  2882	  1	Belgrano I                              	Antarctica                              	-9999.000	-9999.000	Scientific Committee on Antarctic Research        	 -78.00000	 -38.80000	  50.00000	-999.00000	 0.05000	 0.05000	   0.50000	  0	            	                    	-99	89967	 -9999	-9999	      	  -9999	          	     	                    	SCAR_89967                              	6b322fc98986a19be7c0408923349853
+  2884	  1	Pegasus South                           	Antarctica                              	-9999.000	-9999.000	Scientific Committee on Antarctic Research        	 -78.00000	 166.60000	   5.00000	-999.00000	 0.05000	 0.05000	   0.50000	  0	            	                    	-99	 8937	 -9999	-9999	      	  -9999	          	     	                    	SCAR_8937                               	a80b290563d540a1591a5a21a49049c0
+  2911	  1	LGB35                                   	Antarctica                              	-9999.000	-9999.000	Scientific Committee on Antarctic Research        	 -76.00000	  65.00000	2345.00000	-999.00000	 0.50000	 0.50000	   0.50000	  0	            	                    	-99	89568	 -9999	-9999	      	  -9999	          	     	                    	SCAR_89568                              	e6e61ee00f9082cea9de67057e4df901
+  2916	  1	Limbert                                 	Antarctica                              	-9999.000	-9999.000	Scientific Committee on Antarctic Research        	 -75.40000	 -59.90000	  40.00000	-999.00000	 0.05000	 0.05000	   0.50000	  0	            	                    	-99	89257	 -9999	-9999	      	  -9999	          	     	                    	SCAR_89257                              	32d107cd21fe6460e72162c3251ab5eb
+  2924	  1	Nansen Ice Sheet                        	Antarctica                              	-9999.000	-9999.000	Scientific Committee on Antarctic Research        	 -74.80000	 163.30000	  40.00000	-999.00000	 0.05000	 0.05000	   0.50000	  0	            	                    	-99	 7350	 -9999	-9999	      	  -9999	          	     	                    	SCAR_7350                               	19c15627c9b0070f1e0dc9fb4976992c
+  2928	  1	Enigma Lake                             	Antarctica                              	-9999.000	-9999.000	Scientific Committee on Antarctic Research        	 -74.70000	 164.00000	 160.00000	-999.00000	 0.05000	 0.05000	   0.50000	  0	            	                    	-99	 7354	 -9999	-9999	      	  -9999	          	     	                    	SCAR_7354                               	be61c8ee47e60ed9012b64eb8798a715
+  2929	  1	Mario Zucchelli                         	Antarctica                              	-9999.000	-9999.000	Scientific Committee on Antarctic Research        	 -74.70000	 164.10000	  92.00000	-999.00000	 0.05000	 0.05000	   0.50000	  0	            	                    	-99	89662	 -9999	-9999	      	  -9999	          	     	                    	SCAR_89662                              	7b530f1f5d156641616c9cf4aa4c4094
+  2933	  1	Priestley Gl                            	Antarctica                              	-9999.000	-9999.000	Scientific Committee on Antarctic Research        	 -74.30000	 163.20000	 650.00000	-999.00000	 0.05000	 0.05000	   0.50000	  0	            	                    	-99	 7352	 -9999	-9999	      	  -9999	          	     	                    	SCAR_7352                               	8c02334775efc2a4ed26dca4e2a8d3bc
+  2936	  1	Tourmaline Plateau                      	Antarctica                              	-9999.000	-9999.000	Scientific Committee on Antarctic Research        	 -74.10000	 163.40000	1702.00000	-999.00000	 0.05000	 0.05000	   0.50000	  0	            	                    	-99	 7356	 -9999	-9999	      	  -9999	          	     	                    	SCAR_7356                               	35605a50ef3c907d7abed5caa7b16fbc
+  2941	  1	Hi Priestley Gl                         	Antarctica                              	-9999.000	-9999.000	Scientific Committee on Antarctic Research        	 -73.60000	 160.70000	1982.00000	-999.00000	 0.05000	 0.05000	   0.50000	  0	            	                    	-99	89659	 -9999	-9999	      	  -9999	          	     	                    	SCAR_89659                              	68fddb04d5ba96911863e0d34d941147
+  2942	  1	Cape King                               	Antarctica                              	-9999.000	-9999.000	Scientific Committee on Antarctic Research        	 -73.60000	 166.60000	 163.00000	-999.00000	 0.05000	 0.05000	   0.50000	  0	            	                    	-99	 7351	 -9999	-9999	      	  -9999	          	     	                    	SCAR_7351                               	873b35a3d0e718a033e6597beda66503
+  2944	  1	LGB59                                   	Antarctica                              	-9999.000	-9999.000	Scientific Committee on Antarctic Research        	 -73.50000	  76.78000	2565.00000	-999.00000	 0.00500	 0.00500	   0.50000	  0	            	                    	-99	89774	 -9999	-9999	      	  -9999	          	     	                    	SCAR_89774                              	3c64f81f044b951acdfde927c6a73eb4
+  2948	  1	Cape Philips                            	Antarctica                              	-9999.000	-9999.000	Scientific Committee on Antarctic Research        	 -73.10000	 169.60000	 310.00000	-999.00000	 0.05000	 0.05000	   0.50000	  0	            	                    	-99	89661	 -9999	-9999	      	  -9999	          	     	                    	SCAR_89661                              	e3e455230c2d66b847f6cec0a35f5594
+  2979	  1	D 80                                    	Antarctica                              	-9999.000	-9999.000	Scientific Committee on Antarctic Research        	 -70.00000	 134.90000	2500.00000	-999.00000	 0.05000	 0.05000	   0.50000	  0	            	                    	-99	89836	 -9999	-9999	      	  -9999	          	     	                    	SCAR_89836                              	eb06a353f0038d38f3f15780a70ab7d1
+  2990	  1	GEO3                                    	Antarctica                              	-9999.000	-9999.000	Scientific Committee on Antarctic Research        	 -68.70000	  61.10000	1835.00000	-999.00000	 0.05000	 0.05000	   0.50000	  0	            	                    	-99	89762	 -9999	-9999	      	  -9999	          	     	                    	SCAR_89762                              	01f8ab6aa6b7f6d388c71c5c706fc39a
+  2999	  1	D 57                                    	Antarctica                              	-9999.000	-9999.000	Scientific Committee on Antarctic Research        	 -68.10000	 137.50000	2105.00000	-999.00000	 0.05000	 0.05000	   0.50000	  0	            	                    	-99	 8916	 -9999	-9999	      	  -9999	          	     	                    	SCAR_8916                               	51b5193a39f7e486d7e523f91affb01b
+  3005	  1	D 47                                    	Antarctica                              	-9999.000	-9999.000	Scientific Committee on Antarctic Research        	 -67.40000	 138.70000	1560.00000	-999.00000	 0.05000	 0.05000	   0.50000	  0	            	                    	-99	89834	 -9999	-9999	      	  -9999	          	     	                    	SCAR_89834                              	cb1564ef27957781e46e7c076a65815c
+  3008	  1	Sutton                                  	Antarctica                              	-9999.000	-9999.000	Scientific Committee on Antarctic Research        	 -67.10000	 141.40000	 871.00000	-999.00000	 0.05000	 0.05000	   0.50000	  0	            	                    	-99	 8939	 -9999	-9999	      	  -9999	          	     	                    	SCAR_8939                               	a2ac158e198b65c8155d0f1290105cb8
+  3010	  1	Cape Denison                            	Antarctica                              	-9999.000	-9999.000	Scientific Committee on Antarctic Research        	 -67.00000	 142.70000	  31.00000	-999.00000	 0.05000	 0.05000	   0.50000	  0	            	                    	-99	 8988	 -9999	-9999	      	  -9999	          	     	                    	SCAR_8988                               	b7b79aa902202d8ae34031e03b1fd1be
+  3012	  1	Larsen Ice Shelf                        	Antarctica                              	-9999.000	-9999.000	Scientific Committee on Antarctic Research        	 -66.90000	 -60.90000	  17.00000	-999.00000	 0.05000	 0.05000	   0.50000	  0	            	                    	-99	89262	 -9999	-9999	      	  -9999	          	     	                    	SCAR_89262                              	3c11e667ffff975439bd247e7d5ad966
+  3018	  1	D 10                                    	Antarctica                              	-9999.000	-9999.000	Scientific Committee on Antarctic Research        	 -66.70000	 139.80000	 240.00000	-999.00000	 0.05000	 0.05000	   0.50000	  0	            	                    	-99	89832	 -9999	-9999	      	  -9999	          	     	                    	SCAR_89832                              	5d43751516a88ab9b0177a3c6ac8b65c
+  3031	  1	Casey New Airstrip                      	Antarctica                              	-9999.000	-9999.000	Scientific Committee on Antarctic Research        	 -66.30000	 110.80000	 390.00000	-999.00000	 0.05000	 0.05000	   0.50000	  0	            	                    	-99	89612	 -9999	-9999	      	  -9999	          	     	                    	SCAR_89612                              	79295adddaa4b634bf9f35c36b37dc84
+  3040	  1	Santa Claus Island                      	Antarctica                              	-9999.000	-9999.000	Scientific Committee on Antarctic Research        	 -65.00000	 -65.70000	  25.00000	-999.00000	 0.05000	 0.05000	   0.50000	  0	            	                    	-99	 8910	 -9999	-9999	      	  -9999	          	     	                    	SCAR_8910                               	f396732a7989e3e4374cf8eb9154a3fb
+  3068	  1	Marsh                                   	Antarctica                              	-9999.000	-9999.000	Scientific Committee on Antarctic Research        	 -62.20000	 -58.90000	  10.00000	-999.00000	 0.05000	 0.05000	   0.50000	  0	            	                    	-99	89056	 -9999	-9999	      	  -9999	          	     	                    	SCAR_89056                              	d74549eb7164d1061ef1a1eaab9321b6
+  3080	  1	Campbell                                	Antarctica                              	-9999.000	-9999.000	Scientific Committee on Antarctic Research        	 -52.00000	 169.00000	  19.00000	-999.00000	 0.50000	 0.50000	   0.50000	  0	            	                    	-99	93947	 -9999	-9999	      	  -9999	          	     	                    	SCAR_93947                              	db46bf4ebcfd5cba6bc7ff3853546c0b
+ 81315	  1	Amundsen Scott                          	Antarctica                              	-9999.000	-9999.000	Scientific Committee on Antarctic Research        	 -90.00000	   0.00000	2835.00000	-999.00000	 5.00000	 5.00000	   0.50000	  0	            	                    	-99	89009	 -9999	-9999	      	  -9999	          	     	                    	SCAR_89009                              	6cb393ff619602d4b6cf5cd4efe2b295
+ 81316	  1	Clean Air                               	Antarctica                              	-9999.000	-9999.000	Scientific Committee on Antarctic Research        	 -90.00000	   0.00000	2835.00000	-999.00000	 5.00000	 5.00000	   0.50000	  0	            	                    	-99	89208	 -9999	-9999	      	  -9999	          	     	                    	SCAR_89208                              	a31478e05725348ed1151cbc795df28a
+ 81317	  1	Henry                                   	Antarctica                              	-9999.000	-9999.000	Scientific Committee on Antarctic Research        	 -89.00000	  -1.00000	2754.00000	-999.00000	 0.50000	 0.50000	   0.50000	  0	            	                    	-99	89108	 -9999	-9999	      	  -9999	          	     	                    	SCAR_89108                              	205fbbe57cde9fbf9a4c5af1e5e38f8e
+ 81318	  1	Nico                                    	Antarctica                              	-9999.000	-9999.000	Scientific Committee on Antarctic Research        	 -89.00000	  89.70000	3065.00000	-999.00000	 0.05000	 0.05000	   0.50000	  0	            	                    	-99	89799	 -9999	-9999	      	  -9999	          	     	                    	SCAR_89799                              	0249be25cc6888a1eff662b9d184834a
+ 81319	  1	Theresa                                 	Antarctica                              	-9999.000	-9999.000	Scientific Committee on Antarctic Research        	 -84.60000	-115.80000	1463.00000	-999.00000	 0.05000	 0.05000	   0.50000	  0	            	                    	-99	89314	 -9999	-9999	      	  -9999	          	     	                    	SCAR_89314                              	40b559573b8d401e8f170d67ff5bebe6
+ 81320	  1	Elaine                                  	Antarctica                              	-9999.000	-9999.000	Scientific Committee on Antarctic Research        	 -83.10000	 174.20000	  60.00000	-999.00000	 0.05000	 0.05000	   0.50000	  0	            	                    	-99	89873	 -9999	-9999	      	  -9999	          	     	                    	SCAR_89873                              	e22d9ccf4bed4be5002559e44ac6dec6
+ 81321	  1	Harry                                   	Antarctica                              	-9999.000	-9999.000	Scientific Committee on Antarctic Research        	 -83.00000	-121.40000	 954.00000	-999.00000	 0.05000	 0.05000	   0.50000	  0	            	                    	-99	89329	 -9999	-9999	      	  -9999	          	     	                    	SCAR_89329                              	7a7160be7b22e3ea103f812ed7854f39
+ 81322	  1	Elizabeth                               	Antarctica                              	-9999.000	-9999.000	Scientific Committee on Antarctic Research        	 -82.60000	-137.10000	 549.00000	-999.00000	 0.05000	 0.05000	   0.50000	  0	            	                    	-99	89332	 -9999	-9999	      	  -9999	          	     	                    	SCAR_89332                              	a6fd70500e7e1501804454bc53ea3bcb
+ 81323	  1	Lettau                                  	Antarctica                              	-9999.000	-9999.000	Scientific Committee on Antarctic Research        	 -82.50000	-174.40000	  55.00000	-999.00000	 0.05000	 0.05000	   0.50000	  0	            	                    	-99	89377	 -9999	-9999	      	  -9999	          	     	                    	SCAR_89377                              	5ae1feb6a464e98c5287f17e684c8a82
+ 81324	  1	Gill                                    	Antarctica                              	-9999.000	-9999.000	Scientific Committee on Antarctic Research        	 -80.00000	-178.60000	  30.00000	-999.00000	 0.05000	 0.05000	   0.50000	  0	            	                    	-99	89376	 -9999	-9999	      	  -9999	          	     	                    	SCAR_89376                              	9e20463ebc9eb7ee7915a0d0a8a69ac8
+ 81325	  1	Byrd                                    	Antarctica                              	-9999.000	-9999.000	Scientific Committee on Antarctic Research        	 -80.00000	-120.00000	1515.00000	-999.00000	 5.00000	 5.00000	   0.50000	  0	            	                    	-99	89125	 -9999	-9999	      	  -9999	          	     	                    	SCAR_89125                              	d30fcde12756e1dd6507d12b9ec04096
+ 81326	  1	Byrd                                    	Antarctica                              	-9999.000	-9999.000	Scientific Committee on Antarctic Research        	 -80.00000	-119.40000	1530.00000	-999.00000	 0.05000	 0.05000	   0.50000	  0	            	                    	-99	89324	 -9999	-9999	      	  -9999	          	     	                    	SCAR_89324                              	958e9e6b834be9e379a808da38ca4a4f
+ 81327	  1	Marilyn                                 	Antarctica                              	-9999.000	-9999.000	Scientific Committee on Antarctic Research        	 -80.00000	 165.10000	  75.00000	-999.00000	 0.05000	 0.05000	   0.50000	  0	            	                    	-99	89869	 -9999	-9999	      	  -9999	          	     	                    	SCAR_89869                              	051179bc2d32babbb5a351070f0bb1da
+ 81328	  1	Schwerdtfeger                           	Antarctica                              	-9999.000	-9999.000	Scientific Committee on Antarctic Research        	 -79.90000	 170.00000	  60.00000	-999.00000	 0.05000	 0.05000	   0.50000	  0	            	                    	-99	89868	 -9999	-9999	      	  -9999	          	     	                    	SCAR_89868                              	a515e87d61f3c5088217a10cfe112889
+ 81329	  1	Minna Bluff                             	Antarctica                              	-9999.000	-9999.000	Scientific Committee on Antarctic Research        	 -78.60000	 166.70000	  50.00000	-999.00000	 0.05000	 0.05000	   0.50000	  0	            	                    	-99	89768	 -9999	-9999	      	  -9999	          	     	                    	SCAR_89768                              	501297268d1094ba6d213c07173e032b
+ 81330	  1	Vostok                                  	Antarctica                              	-9999.000	-9999.000	Scientific Committee on Antarctic Research        	 -78.50000	 106.90000	3490.00000	-999.00000	 0.05000	 0.05000	   0.50000	  0	            	                    	-99	89606	 -9999	-9999	      	  -9999	          	     	                    	SCAR_89606                              	34865e2e6a65a03a894f5cc483936c1b
+ 81331	  1	Linda                                   	Antarctica                              	-9999.000	-9999.000	Scientific Committee on Antarctic Research        	 -78.50000	 168.40000	  50.00000	-999.00000	 0.05000	 0.05000	   0.50000	  0	            	                    	-99	89769	 -9999	-9999	      	  -9999	          	     	                    	SCAR_89769                              	aabc9e5dd0f2bc7e52f38f7c432dc94f
+ 81332	  1	Belgrano II                             	Antarctica                              	-9999.000	-9999.000	Scientific Committee on Antarctic Research        	 -77.90000	 -34.60000	 256.00000	-999.00000	 0.05000	 0.05000	   0.50000	  0	            	                    	-99	89034	 -9999	-9999	      	  -9999	          	     	                    	SCAR_89034                              	c5640cc179eb06424e83a674b6bd4536
+ 81333	  1	Pegasus North                           	Antarctica                              	-9999.000	-9999.000	Scientific Committee on Antarctic Research        	 -77.90000	 166.50000	  20.00000	-999.00000	 0.05000	 0.05000	   0.50000	  0	            	                    	-99	89667	 -9999	-9999	      	  -9999	          	     	                    	SCAR_89667                              	0fe950d52e881a4e7653df1eebbe09e0
+ 81334	  1	Scott Base                              	Antarctica                              	-9999.000	-9999.000	Scientific Committee on Antarctic Research        	 -77.90000	 166.70000	  16.00000	-999.00000	 0.05000	 0.05000	   0.50000	  0	            	                    	-99	89665	 -9999	-9999	      	  -9999	          	     	                    	SCAR_89665                              	27863c0274b924618292a184800c4045
+ 81335	  1	McMurdo                                 	Antarctica                              	-9999.000	-9999.000	Scientific Committee on Antarctic Research        	 -77.90000	 166.70000	  24.00000	-999.00000	 0.05000	 0.05000	   0.50000	  0	            	                    	-99	89664	 -9999	-9999	      	  -9999	          	     	                    	SCAR_89664                              	65acbf6bfd17643ce98e796d4b557fe1
+ 81336	  1	Ferrell                                 	Antarctica                              	-9999.000	-9999.000	Scientific Committee on Antarctic Research        	 -77.90000	 170.80000	  45.00000	-999.00000	 0.05000	 0.05000	   0.50000	  0	            	                    	-99	89872	 -9999	-9999	      	  -9999	          	     	                    	SCAR_89872                              	f0ac194a88232ae5f8041a7f8d9c4ab2
+ 81337	  1	Marble Point                            	Antarctica                              	-9999.000	-9999.000	Scientific Committee on Antarctic Research        	 -77.40000	 163.70000	 120.00000	-999.00000	 0.05000	 0.05000	   0.50000	  0	            	                    	-99	89866	 -9999	-9999	      	  -9999	          	     	                    	SCAR_89866                              	542668d81b0dff7472ab068398116a69
+ 81338	  1	Dome F                                  	Antarctica                              	-9999.000	-9999.000	Scientific Committee on Antarctic Research        	 -77.30000	  39.70000	3810.00000	-999.00000	 0.05000	 0.05000	   0.50000	  0	            	                    	-99	89734	 -9999	-9999	      	  -9999	          	     	                    	SCAR_89734                              	df4b7b833d8daa9d3cf7588e4fe300d5
+ 81339	  1	Cape Ross                               	Antarctica                              	-9999.000	-9999.000	Scientific Committee on Antarctic Research        	 -76.70000	 163.00000	 201.00000	-999.00000	 0.05000	 0.05000	   0.50000	  0	            	                    	-99	89666	 -9999	-9999	      	  -9999	          	     	                    	SCAR_89666                              	a087f62a2871abf94a80d538de19de73
+ 81340	  1	Whitlock                                	Antarctica                              	-9999.000	-9999.000	Scientific Committee on Antarctic Research        	 -76.20000	 168.40000	 275.00000	-999.00000	 0.05000	 0.05000	   0.50000	  0	            	                    	-99	89865	 -9999	-9999	      	  -9999	          	     	                    	SCAR_89865                              	162d3b158bc7ae55db6e51bae79ce961
+ 81341	  1	Siple                                   	Antarctica                              	-9999.000	-9999.000	Scientific Committee on Antarctic Research        	 -75.90000	 -84.00000	1054.00000	-999.00000	 0.05000	 0.05000	   0.50000	  0	            	                    	-99	89284	 -9999	-9999	      	  -9999	          	     	                    	SCAR_89284                              	9ebcb53d88aaa0649c95f0ae6b4d8c1f
+ 81342	  1	Halley                                  	Antarctica                              	-9999.000	-9999.000	Scientific Committee on Antarctic Research        	 -75.50000	 -26.40000	  30.00000	-999.00000	 0.05000	 0.05000	   0.50000	  0	            	                    	-99	89022	 -9999	-9999	      	  -9999	          	     	                    	SCAR_89022                              	25446d39cac8c396f83e2ebd48a3cd56
+ 81343	  1	Dome C II                               	Antarctica                              	-9999.000	-9999.000	Scientific Committee on Antarctic Research        	 -75.10000	 123.40000	3280.00000	-999.00000	 0.05000	 0.05000	   0.50000	  0	            	                    	-99	89828	 -9999	-9999	      	  -9999	          	     	                    	SCAR_89828                              	d6b30975ad062e93e37709e30fed9358
+ 81344	  1	Manuela                                 	Antarctica                              	-9999.000	-9999.000	Scientific Committee on Antarctic Research        	 -74.90000	 163.70000	  80.00000	-999.00000	 0.05000	 0.05000	   0.50000	  0	            	                    	-99	89864	 -9999	-9999	      	  -9999	          	     	                    	SCAR_89864                              	0e1679edf2a1bd9ca0f14a9295cdf807
+ 81345	  1	Russkaya                                	Antarctica                              	-9999.000	-9999.000	Scientific Committee on Antarctic Research        	 -74.80000	-136.90000	 124.00000	-999.00000	 0.05000	 0.05000	   0.50000	  0	            	                    	-99	89132	 -9999	-9999	      	  -9999	          	     	                    	SCAR_89132                              	3e5f196469f708d77c26541276e49e98
+ 81346	  1	Lynn                                    	Antarctica                              	-9999.000	-9999.000	Scientific Committee on Antarctic Research        	 -74.20000	 160.40000	1772.00000	-999.00000	 0.05000	 0.05000	   0.50000	  0	            	                    	-99	89860	 -9999	-9999	      	  -9999	          	     	                    	SCAR_89860                              	9b2d7fed225230d3a84392929e318196
+ 81347	  1	Relay Station                           	Antarctica                              	-9999.000	-9999.000	Scientific Committee on Antarctic Research        	 -74.00000	  43.10000	3353.00000	-999.00000	 0.05000	 0.05000	   0.50000	  0	            	                    	-99	89744	 -9999	-9999	      	  -9999	          	     	                    	SCAR_89744                              	9ab75c36296cc06e85be2afb6c790f98
+ 81348	  1	LGB20                                   	Antarctica                              	-9999.000	-9999.000	Scientific Committee on Antarctic Research        	 -73.80000	  55.70000	2743.00000	-999.00000	 0.05000	 0.05000	   0.50000	  0	            	                    	-99	89757	 -9999	-9999	      	  -9999	          	     	                    	SCAR_89757                              	7c7bc1a3ecc68201cc1f70462a340c5c
+ 81349	  1	Mount Siple                             	Antarctica                              	-9999.000	-9999.000	Scientific Committee on Antarctic Research        	 -73.20000	-127.10000	  30.00000	-999.00000	 0.05000	 0.05000	   0.50000	  0	            	                    	-99	89327	 -9999	-9999	      	  -9999	          	     	                    	SCAR_89327                              	0cc7e4f4454f343db78ce04cfb2d74b0
+ 81350	  1	Drescher                                	Antarctica                              	-9999.000	-9999.000	Scientific Committee on Antarctic Research        	 -72.87000	 -19.03000	  34.00000	-999.00000	 0.00500	 0.00500	   0.50000	  0	            	                    	-99	89214	 -9999	-9999	      	  -9999	          	     	                    	SCAR_89214                              	2e346a7849bf45685641be1f32afef7d
+ 81351	  1	Butler Island                           	Antarctica                              	-9999.000	-9999.000	Scientific Committee on Antarctic Research        	 -72.20000	 -60.20000	  91.00000	-999.00000	 0.05000	 0.05000	   0.50000	  0	            	                    	-99	89266	 -9999	-9999	      	  -9999	          	     	                    	SCAR_89266                              	d9d5830ba5354ed918bf24ef98f462f5
+ 81352	  1	Possession Island                       	Antarctica                              	-9999.000	-9999.000	Scientific Committee on Antarctic Research        	 -71.90000	 171.20000	  30.00000	-999.00000	 0.05000	 0.05000	   0.50000	  0	            	                    	-99	89879	 -9999	-9999	      	  -9999	          	     	                    	SCAR_89879                              	2a79ad1a6a0649d3dc84550f116febac
+ 81353	  1	GC41                                    	Antarctica                              	-9999.000	-9999.000	Scientific Committee on Antarctic Research        	 -71.60000	 111.30000	2763.00000	-999.00000	 0.05000	 0.05000	   0.50000	  0	            	                    	-99	89813	 -9999	-9999	      	  -9999	          	     	                    	SCAR_89813                              	561a3a68f97d35ebbee2855924152fef
+ 81354	  1	Asuka                                   	Antarctica                              	-9999.000	-9999.000	Scientific Committee on Antarctic Research        	 -71.50000	  24.10000	 931.00000	-999.00000	 0.05000	 0.05000	   0.50000	  0	            	                    	-99	89524	 -9999	-9999	      	  -9999	          	     	                    	SCAR_89524                              	aa244f0b486b5998ef96eae7bec044c4
+ 81355	  1	Uranus Glacier                          	Antarctica                              	-9999.000	-9999.000	Scientific Committee on Antarctic Research        	 -71.40000	 -68.90000	 780.00000	-999.00000	 0.05000	 0.05000	   0.50000	  0	            	                    	-99	89264	 -9999	-9999	      	  -9999	          	     	                    	SCAR_89264                              	1554dc71401fe5ad82084e8c87273a9b
+ 81356	  1	LGB10                                   	Antarctica                              	-9999.000	-9999.000	Scientific Committee on Antarctic Research        	 -71.30000	  59.20000	2619.00000	-999.00000	 0.05000	 0.05000	   0.50000	  0	            	                    	-99	89758	 -9999	-9999	      	  -9999	          	     	                    	SCAR_89758                              	f5d5a19d28169226063ebe55c5e65046
+ 81357	  1	Novolazarevskaya                        	Antarctica                              	-9999.000	-9999.000	Scientific Committee on Antarctic Research        	 -70.80000	  11.80000	 119.00000	-999.00000	 0.05000	 0.05000	   0.50000	  0	            	                    	-99	89512	 -9999	-9999	      	  -9999	          	     	                    	SCAR_89512                              	86660ce35023ad5bd05cdbd275094b42
+ 81358	  1	Neumayer                                	Antarctica                              	-9999.000	-9999.000	Scientific Committee on Antarctic Research        	 -70.70000	  -8.40000	  50.00000	-999.00000	 0.05000	 0.05000	   0.50000	  0	            	                    	-99	89002	 -9999	-9999	      	  -9999	          	     	                    	SCAR_89002                              	7162f07c4ee106710e2532c16011f7c7
+ 81359	  1	Leningradskaja                          	Antarctica                              	-9999.000	-9999.000	Scientific Committee on Antarctic Research        	 -69.50000	 159.40000	 304.00000	-999.00000	 0.05000	 0.05000	   0.50000	  0	            	                    	-99	89657	 -9999	-9999	      	  -9999	          	     	                    	SCAR_89657                              	d7951becd0bd159dba5f0ca3fedd2b0f
+ 81360	  1	Zhongshan                               	Antarctica                              	-9999.000	-9999.000	Scientific Committee on Antarctic Research        	 -69.40000	  76.40000	  18.00000	-999.00000	 0.05000	 0.05000	   0.50000	  0	            	                    	-99	89573	 -9999	-9999	      	  -9999	          	     	                    	SCAR_89573                              	3f249a9277263452522aaffad9688ce6
+ 81361	  1	Syowa                                   	Antarctica                              	-9999.000	-9999.000	Scientific Committee on Antarctic Research        	 -69.00000	  39.60000	  21.00000	-999.00000	 0.05000	 0.05000	   0.50000	  0	            	                    	-99	89532	 -9999	-9999	      	  -9999	          	     	                    	SCAR_89532                              	5e3b203716a85d37e0b19e53593ffb92
+ 81362	  1	Davis                                   	Antarctica                              	-9999.000	-9999.000	Scientific Committee on Antarctic Research        	 -68.60000	  78.00000	  13.00000	-999.00000	 0.05000	 0.05000	   0.50000	  0	            	                    	-99	89571	 -9999	-9999	      	  -9999	          	     	                    	SCAR_89571                              	c9e9d8e71398f42f25a932accd89fb4d
+ 81363	  1	GF08                                    	Antarctica                              	-9999.000	-9999.000	Scientific Committee on Antarctic Research        	 -68.50000	 102.10000	2125.00000	-999.00000	 0.05000	 0.05000	   0.50000	  0	            	                    	-99	89803	 -9999	-9999	      	  -9999	          	     	                    	SCAR_89803                              	b451b513b48d43c49482cc18b437a67a
+ 81364	  1	San Martin                              	Antarctica                              	-9999.000	-9999.000	Scientific Committee on Antarctic Research        	 -68.10000	 -67.10000	   4.00000	-999.00000	 0.05000	 0.05000	   0.50000	  0	            	                    	-99	89066	 -9999	-9999	      	  -9999	          	     	                    	SCAR_89066                              	7d446c23c1ddffa92b1dd88479f7d255
+ 81365	  1	Adelaide                                	Antarctica                              	-9999.000	-9999.000	Scientific Committee on Antarctic Research        	 -67.80000	 -68.90000	  26.00000	-999.00000	 0.05000	 0.05000	   0.50000	  0	            	                    	-99	88958	 -9999	-9999	      	  -9999	          	     	                    	SCAR_88958                              	0ed4268b92475abd62ac7cd1d0ae5fc3
+ 81366	  1	Molodeznaja                             	Antarctica                              	-9999.000	-9999.000	Scientific Committee on Antarctic Research        	 -67.70000	  45.90000	  40.00000	-999.00000	 0.05000	 0.05000	   0.50000	  0	            	                    	-99	89542	 -9999	-9999	      	  -9999	          	     	                    	SCAR_89542                              	09fe914963653d91d35cbfaeded50047
+ 81367	  1	Mawson                                  	Antarctica                              	-9999.000	-9999.000	Scientific Committee on Antarctic Research        	 -67.60000	  62.90000	  16.00000	-999.00000	 0.05000	 0.05000	   0.50000	  0	            	                    	-99	89564	 -9999	-9999	      	  -9999	          	     	                    	SCAR_89564                              	3e6f6963dbbd404270c342605e4957d3
+ 81368	  1	Penguin Point                           	Antarctica                              	-9999.000	-9999.000	Scientific Committee on Antarctic Research        	 -67.60000	 146.20000	  30.00000	-999.00000	 0.05000	 0.05000	   0.50000	  0	            	                    	-99	89847	 -9999	-9999	      	  -9999	          	     	                    	SCAR_89847                              	e007e372b1c4521353dec94c1758d8dd
+ 81369	  1	Rothera                                 	Antarctica                              	-9999.000	-9999.000	Scientific Committee on Antarctic Research        	 -67.50000	 -68.10000	  32.00000	-999.00000	 0.05000	 0.05000	   0.50000	  0	            	                    	-99	89062	 -9999	-9999	      	  -9999	          	     	                    	SCAR_89062                              	35d5dbfc099d3884ad3d0ccc66533c97
+ 81370	  1	Scott Island                            	Antarctica                              	-9999.000	-9999.000	Scientific Committee on Antarctic Research        	 -67.40000	-180.00000	  30.00000	-999.00000	 0.05000	 0.05000	   0.50000	  0	            	                    	-99	89371	 -9999	-9999	      	  -9999	          	     	                    	SCAR_89371                              	dba3da833bc149c5d3f45b18dfe0d429
+ 81371	  1	Port Martin                             	Antarctica                              	-9999.000	-9999.000	Scientific Committee on Antarctic Research        	 -66.80000	 141.40000	  39.00000	-999.00000	 0.05000	 0.05000	   0.50000	  0	            	                    	-99	89643	 -9999	-9999	      	  -9999	          	     	                    	SCAR_89643                              	40e16afb5575cdfc0bfec32d08aca73d
+ 81372	  1	Law Dome Summit                         	Antarctica                              	-9999.000	-9999.000	Scientific Committee on Antarctic Research        	 -66.70000	 112.70000	1368.00000	-999.00000	 0.05000	 0.05000	   0.50000	  0	            	                    	-99	89811	 -9999	-9999	      	  -9999	          	     	                    	SCAR_89811                              	bc55aa29f391d2148d40eb3c0b6af851
+ 81373	  1	Dumont Durville                         	Antarctica                              	-9999.000	-9999.000	Scientific Committee on Antarctic Research        	 -66.70000	 140.00000	  43.00000	-999.00000	 0.05000	 0.05000	   0.50000	  0	            	                    	-99	89642	 -9999	-9999	      	  -9999	          	     	                    	SCAR_89642                              	736b2edc514012f4c5adbebb0c2e8258
+ 81374	  1	Mirny                                   	Antarctica                              	-9999.000	-9999.000	Scientific Committee on Antarctic Research        	 -66.50000	  93.00000	  30.00000	-999.00000	 0.05000	 0.05000	   0.50000	  0	            	                    	-99	89592	 -9999	-9999	      	  -9999	          	     	                    	SCAR_89592                              	35dd24dcee4c33fb251dfe130508fb77
+ 81375	  1	Casey                                   	Antarctica                              	-9999.000	-9999.000	Scientific Committee on Antarctic Research        	 -66.30000	 110.50000	  42.00000	-999.00000	 0.05000	 0.05000	   0.50000	  0	            	                    	-99	89611	 -9999	-9999	      	  -9999	          	     	                    	SCAR_89611                              	16ca1316495073769e752f7cc6b30802
+ 81376	  1	Casey Airstrip                          	Antarctica                              	-9999.000	-9999.000	Scientific Committee on Antarctic Research        	 -66.30000	 110.80000	 392.00000	-999.00000	 0.05000	 0.05000	   0.50000	  0	            	                    	-99	89810	 -9999	-9999	      	  -9999	          	     	                    	SCAR_89810                              	8ba05dfd2995a30edf4dfc8e8c5316ab
+ 81377	  1	Bonaparte Point                         	Antarctica                              	-9999.000	-9999.000	Scientific Committee on Antarctic Research        	 -64.80000	 -64.10000	   8.00000	-999.00000	 0.05000	 0.05000	   0.50000	  0	            	                    	-99	89269	 -9999	-9999	      	  -9999	          	     	                    	SCAR_89269                              	4ce6e1475ad7cc7efedbe3d2ee82fd67
+ 81378	  1	Marambio                                	Antarctica                              	-9999.000	-9999.000	Scientific Committee on Antarctic Research        	 -64.20000	 -56.70000	 198.00000	-999.00000	 0.05000	 0.05000	   0.50000	  0	            	                    	-99	89055	 -9999	-9999	      	  -9999	          	     	                    	SCAR_89055                              	acff65e7ea36def6b44a2e8c358ac371
+ 81379	  1	Racer Rock                              	Antarctica                              	-9999.000	-9999.000	Scientific Committee on Antarctic Research        	 -64.10000	 -61.60000	  17.00000	-999.00000	 0.05000	 0.05000	   0.50000	  0	            	                    	-99	89261	 -9999	-9999	      	  -9999	          	     	                    	SCAR_89261                              	5cd600d4fa21c85955653256b58d2b7e
+ 81380	  1	Esperanza                               	Antarctica                              	-9999.000	-9999.000	Scientific Committee on Antarctic Research        	 -63.40000	 -57.00000	  13.00000	-999.00000	 0.05000	 0.05000	   0.50000	  0	            	                    	-99	88963	 -9999	-9999	      	  -9999	          	     	                    	SCAR_88963                              	882131cee83c8c3f820dfc9f6f049e5f
+ 81381	  1	O Higgins                               	Antarctica                              	-9999.000	-9999.000	Scientific Committee on Antarctic Research        	 -63.30000	 -57.90000	  10.00000	-999.00000	 0.05000	 0.05000	   0.50000	  0	            	                    	-99	89059	 -9999	-9999	      	  -9999	          	     	                    	SCAR_89059                              	ebd55f89cbd6b4020ce8c757ecddd35f
+ 81382	  1	Deception                               	Antarctica                              	-9999.000	-9999.000	Scientific Committee on Antarctic Research        	 -63.00000	 -60.70000	   8.00000	-999.00000	 0.05000	 0.05000	   0.50000	  0	            	                    	-99	88938	 -9999	-9999	      	  -9999	          	     	                    	SCAR_88938                              	4eff576f7b03e2194277dee56be7a671
+ 81383	  1	Arturo Prat                             	Antarctica                              	-9999.000	-9999.000	Scientific Committee on Antarctic Research        	 -62.50000	 -59.70000	   5.00000	-999.00000	 0.05000	 0.05000	   0.50000	  0	            	                    	-99	89057	 -9999	-9999	      	  -9999	          	     	                    	SCAR_89057                              	cf7eeac7de5e7b2de7ab5852b24613c5
+ 81384	  1	Great Wall                              	Antarctica                              	-9999.000	-9999.000	Scientific Committee on Antarctic Research        	 -62.20000	 -59.00000	  10.00000	-999.00000	 0.05000	 0.05000	   0.50000	  0	            	                    	-99	89058	 -9999	-9999	      	  -9999	          	     	                    	SCAR_89058                              	6af26035b05ccf3789d117734b2f9e95
+ 81385	  1	Bellingshausen                          	Antarctica                              	-9999.000	-9999.000	Scientific Committee on Antarctic Research        	 -62.20000	 -58.90000	  16.00000	-999.00000	 0.05000	 0.05000	   0.50000	  0	            	                    	-99	89050	 -9999	-9999	      	  -9999	          	     	                    	SCAR_89050                              	013ee9a51895b2ad282c691b3995b34c
+ 81386	  1	King Sejong                             	Antarctica                              	-9999.000	-9999.000	Scientific Committee on Antarctic Research        	 -62.20000	 -58.70000	  11.00000	-999.00000	 0.05000	 0.05000	   0.50000	  0	            	                    	-99	89251	 -9999	-9999	      	  -9999	          	     	                    	SCAR_89251                              	caaaeb1ae6be07795c0c736f26c125d3
+ 81387	  1	Jubany                                  	Antarctica                              	-9999.000	-9999.000	Scientific Committee on Antarctic Research        	 -62.20000	 -58.60000	   4.00000	-999.00000	 0.05000	 0.05000	   0.50000	  0	            	                    	-99	89053	 -9999	-9999	      	  -9999	          	     	                    	SCAR_89053                              	df7703fdc01640d530a39240967b5444
+ 81388	  1	Ferraz                                  	Antarctica                              	-9999.000	-9999.000	Scientific Committee on Antarctic Research        	 -62.10000	 -58.40000	  20.00000	-999.00000	 0.05000	 0.05000	   0.50000	  0	            	                    	-99	89252	 -9999	-9999	      	  -9999	          	     	                    	SCAR_89252                              	905c45f72e3cee762ba8af985fe39032
+ 81389	  1	Signy                                   	Antarctica                              	-9999.000	-9999.000	Scientific Committee on Antarctic Research        	 -60.70000	 -45.60000	   6.00000	-999.00000	 0.05000	 0.05000	   0.50000	  0	            	                    	-99	89042	 -9999	-9999	      	  -9999	          	     	                    	SCAR_89042                              	3368c18ce5fe370c7d76edab8ce85a5f
+ 81390	  1	Orcadas                                 	Antarctica                              	-9999.000	-9999.000	Scientific Committee on Antarctic Research        	 -60.70000	 -44.70000	   6.00000	-999.00000	 0.05000	 0.05000	   0.50000	  0	            	                    	-99	88968	 -9999	-9999	      	  -9999	          	     	                    	SCAR_88968                              	aef1919282e51ecc31023b5622382263
+ 81391	  1	Macquarie                               	Antarctica                              	-9999.000	-9999.000	Scientific Committee on Antarctic Research        	 -54.50000	 158.90000	   8.00000	-999.00000	 0.05000	 0.05000	   0.50000	  0	            	                    	-99	94998	 -9999	-9999	      	  -9999	          	     	                    	SCAR_94998                              	48aed9205170807ee84b945a7f466818
+ 81392	  1	Grytviken                               	Antarctica                              	-9999.000	-9999.000	Scientific Committee on Antarctic Research        	 -54.30000	 -36.50000	   3.00000	-999.00000	 0.05000	 0.05000	   0.50000	  0	            	                    	-99	88903	 -9999	-9999	      	  -9999	          	     	                    	SCAR_88903                              	821c6b364c62b94f35304b4f9317fa7c
+ 81393	  1	Marion                                  	Antarctica                              	-9999.000	-9999.000	Scientific Committee on Antarctic Research        	 -46.80000	  37.80000	  24.00000	-999.00000	 0.05000	 0.05000	   0.50000	  0	            	                    	-99	68994	 -9999	-9999	      	  -9999	          	     	                    	SCAR_68994                              	ccb031265e6149215516406855fda91e
+ 81394	  1	Gough                                   	Antarctica                              	-9999.000	-9999.000	Scientific Committee on Antarctic Research        	 -40.40000	  -9.90000	  54.00000	-999.00000	 0.05000	 0.05000	   0.50000	  0	            	                    	-99	68906	 -9999	-9999	      	  -9999	          	     	                    	SCAR_68906                              	3cfdf53e0489a4f91eb5784cf8a190ed

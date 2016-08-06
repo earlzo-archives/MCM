@@ -1,0 +1,239 @@
+,NAME OF DATA ELEMENT,dev-category,API data type,VARIABLE NAME,VALUE,LABEL,SOURCE
+1,8-digit OPE ID for institution,root,integer,OPEID,,,IPEDS
+2,6-digit OPE ID for institution,root,integer,opeid6,,,IPEDS
+3,Institution name,school,autocomplete,INSTNM,,,IPEDS
+4,City,school,autocomplete,CITY,,,IPEDS
+5,State postcode,school,string,STABBR,,,IPEDS
+8,URL for institution's homepage,school,string,INSTURL,,,IPEDS
+9,URL for institution's net price calculator,school,string,NPCURL,,,IPEDS
+1826,Schools that are on Heightened Cash Monitoring 2 by the Department of Education,school,integer,HCM2,,,FSA
+14,"Predominant degree awarded
+0        Not classified
+1        Predominantly certificate-degree granting
+2        Predominantly associate's-degree granting
+3        Predominantly bachelor's-degree granting
+4        Entirely graduate-degree granting",school,integer,PREDDEG,0.0,Not classified,IPEDS
+15,"Predominant degree awarded
+0        Not classified
+1        Predominantly certificate-degree granting
+2        Predominantly associate's-degree granting
+3        Predominantly bachelor's-degree granting
+4        Entirely graduate-degree granting",school,integer,PREDDEG,1.0,Predominantly certificate-degree granting,IPEDS
+16,"Predominant degree awarded
+0        Not classified
+1        Predominantly certificate-degree granting
+2        Predominantly associate's-degree granting
+3        Predominantly bachelor's-degree granting
+4        Entirely graduate-degree granting",school,integer,PREDDEG,2.0,Predominantly associate's-degree granting,IPEDS
+17,"Predominant degree awarded
+0        Not classified
+1        Predominantly certificate-degree granting
+2        Predominantly associate's-degree granting
+3        Predominantly bachelor's-degree granting
+4        Entirely graduate-degree granting",school,integer,PREDDEG,3.0,Predominantly bachelor's-degree granting,IPEDS
+18,"Predominant degree awarded
+0        Not classified
+1        Predominantly certificate-degree granting
+2        Predominantly associate's-degree granting
+3        Predominantly bachelor's-degree granting
+4        Entirely graduate-degree granting",school,integer,PREDDEG,4.0,Entirely graduate-degree granting,IPEDS
+24,Control of institution,school,integer,CONTROL,1.0,Public,IPEDS
+25,Control of institution,school,integer,CONTROL,2.0,Private nonprofit,IPEDS
+26,Control of institution,school,integer,CONTROL,3.0,Private for-profit,IPEDS
+95,Locale of institution,school,integer,LOCALE,11.0,"City: Large (population of 250,000 or more)",IPEDS
+96,Locale of institution,school,integer,LOCALE,12.0,"City: Midsize (population of at least 100,000 but less than 250,000)",IPEDS
+97,Locale of institution,school,integer,LOCALE,13.0,"City: Small (population less than 100,000)",IPEDS
+98,Locale of institution,school,integer,LOCALE,21.0,"Suburb: Large (outside principal city, in urbanized area with population of 250,000 or more)",IPEDS
+99,Locale of institution,school,integer,LOCALE,22.0,"Suburb: Midsize (outside principal city, in urbanized area with population of at least 100,000 but less than 250,000)",IPEDS
+100,Locale of institution,school,integer,LOCALE,23.0,"Suburb: Small (outside principal city, in urbanized area with population less than 100,000)",IPEDS
+101,Locale of institution,school,integer,LOCALE,31.0,Town: Fringe (in urban cluster up to 10 miles from an urbanized area),IPEDS
+102,Locale of institution,school,integer,LOCALE,32.0,Town: Distant (in urban cluster more than 10 miles and up to 35 miles from an urbanized area),IPEDS
+103,Locale of institution,school,integer,LOCALE,33.0,Town: Remote (in urban cluster more than 35 miles from an urbanized area),IPEDS
+104,Locale of institution,school,integer,LOCALE,41.0,Rural: Fringe (rural territory up to 5 miles from an urbanized area or up to 2.5 miles from an urban cluster),IPEDS
+105,Locale of institution,school,integer,LOCALE,42.0,Rural: Distant (rural territory more than 5 miles but up to 25 miles from an urbanized area or more than 2.5 and up to 10 miles from an urban cluster),IPEDS
+106,Locale of institution,school,integer,LOCALE,43.0,Rural: Remote (rural territory more than 25 miles from an urbanized area and more than 10 miles from an urban cluster),IPEDS
+183,Flag for Historically Black College and University,school,integer,HBCU,0.0,No,OPE
+184,Flag for Historically Black College and University,school,integer,HBCU,1.0,Yes,OPE
+185,Flag for predominantly black institution,school,integer,PBI,0.0,No,OPE
+186,Flag for predominantly black institution,school,integer,PBI,1.0,Yes,OPE
+187,Flag for Alaska Native Native Hawaiian serving institution,school,integer,ANNHI,0.0,No,OPE
+188,Flag for Alaska Native Native Hawaiian serving institution,school,integer,ANNHI,1.0,Yes,OPE
+189,Flag for tribal college and university,school,integer,TRIBAL,0.0,No,OPE
+190,Flag for tribal college and university,school,integer,TRIBAL,1.0,Yes,OPE
+191,Flag for Asian American Native American Pacific Islander-serving institution,school,integer,AANAPII,0.0,No,OPE
+192,Flag for Asian American Native American Pacific Islander-serving institution,school,integer,AANAPII,1.0,Yes,OPE
+193,Flag for Hispanic-serving institution,school,integer,HSI,0.0,No,OPE
+194,Flag for Hispanic-serving institution,school,integer,HSI,1.0,Yes,OPE
+195,Flag for Native American non-tribal institution,school,integer,NANTI,0.0,No,OPE
+196,Flag for Native American non-tribal institution,school,integer,NANTI,1.0,Yes,OPE
+197,Flag for men-only college,school,integer,MENONLY,0.0,No,IPEDS
+198,Flag for men-only college,school,integer,MENONLY,1.0,Yes,IPEDS
+199,Flag for women-only college,school,integer,WOMENONLY,0.0,No,IPEDS
+200,Flag for women-only college,school,integer,WOMENONLY,1.0,Yes,IPEDS
+201,Religous affiliation of the institution,school,integer,RELAFFIL,-1.0,Not reported,IPEDS
+202,Religous affiliation of the institution,school,integer,RELAFFIL,-2.0,Not applicable,IPEDS
+203,Religous affiliation of the institution,school,integer,RELAFFIL,22.0,American Evangelical Lutheran Church,IPEDS
+204,Religous affiliation of the institution,school,integer,RELAFFIL,24.0,African Methodist Episcopal Zion Church,IPEDS
+205,Religous affiliation of the institution,school,integer,RELAFFIL,27.0,Assemblies of God Church,IPEDS
+206,Religous affiliation of the institution,school,integer,RELAFFIL,28.0,Brethren Church,IPEDS
+207,Religous affiliation of the institution,school,integer,RELAFFIL,30.0,Roman Catholic,IPEDS
+208,Religous affiliation of the institution,school,integer,RELAFFIL,33.0,Wisconsin Evangelical Lutheran Synod,IPEDS
+209,Religous affiliation of the institution,school,integer,RELAFFIL,34.0,Christ and Missionary Alliance Church,IPEDS
+210,Religous affiliation of the institution,school,integer,RELAFFIL,35.0,Christian Reformed Church,IPEDS
+211,Religous affiliation of the institution,school,integer,RELAFFIL,36.0,Evangelical Congregational Church,IPEDS
+212,Religous affiliation of the institution,school,integer,RELAFFIL,37.0,Evangelical Covenant Church of America,IPEDS
+213,Religous affiliation of the institution,school,integer,RELAFFIL,38.0,Evangelical Free Church of America,IPEDS
+214,Religous affiliation of the institution,school,integer,RELAFFIL,39.0,Evangelical Lutheran Church,IPEDS
+215,Religous affiliation of the institution,school,integer,RELAFFIL,40.0,International United Pentecostal Church,IPEDS
+216,Religous affiliation of the institution,school,integer,RELAFFIL,41.0,Free Will Baptist Church,IPEDS
+217,Religous affiliation of the institution,school,integer,RELAFFIL,42.0,Interdenominational,IPEDS
+218,Religous affiliation of the institution,school,integer,RELAFFIL,43.0,Mennonite Brethren Church,IPEDS
+219,Religous affiliation of the institution,school,integer,RELAFFIL,44.0,Moravian Church,IPEDS
+220,Religous affiliation of the institution,school,integer,RELAFFIL,45.0,North American Baptist,IPEDS
+221,Religous affiliation of the institution,school,integer,RELAFFIL,47.0,Pentecostal Holiness Church,IPEDS
+222,Religous affiliation of the institution,school,integer,RELAFFIL,48.0,Christian Churches and Churches of Christ,IPEDS
+223,Religous affiliation of the institution,school,integer,RELAFFIL,49.0,Reformed Church in America,IPEDS
+224,Religous affiliation of the institution,school,integer,RELAFFIL,50.0,"Episcopal Church, Reformed",IPEDS
+225,Religous affiliation of the institution,school,integer,RELAFFIL,51.0,African Methodist Episcopal,IPEDS
+226,Religous affiliation of the institution,school,integer,RELAFFIL,52.0,American Baptist,IPEDS
+227,Religous affiliation of the institution,school,integer,RELAFFIL,53.0,American Lutheran,IPEDS
+228,Religous affiliation of the institution,school,integer,RELAFFIL,54.0,Baptist,IPEDS
+229,Religous affiliation of the institution,school,integer,RELAFFIL,55.0,Christian Methodist Episcopal,IPEDS
+230,Religous affiliation of the institution,school,integer,RELAFFIL,57.0,Church of God,IPEDS
+231,Religous affiliation of the institution,school,integer,RELAFFIL,58.0,Church of Brethren,IPEDS
+232,Religous affiliation of the institution,school,integer,RELAFFIL,59.0,Church of the Nazarene,IPEDS
+233,Religous affiliation of the institution,school,integer,RELAFFIL,60.0,Cumberland Presbyterian,IPEDS
+234,Religous affiliation of the institution,school,integer,RELAFFIL,61.0,Christian Church (Disciples of Christ),IPEDS
+235,Religous affiliation of the institution,school,integer,RELAFFIL,64.0,Free Methodist,IPEDS
+236,Religous affiliation of the institution,school,integer,RELAFFIL,65.0,Friends,IPEDS
+237,Religous affiliation of the institution,school,integer,RELAFFIL,66.0,Presbyterian Church (USA),IPEDS
+238,Religous affiliation of the institution,school,integer,RELAFFIL,67.0,Lutheran Church in America,IPEDS
+239,Religous affiliation of the institution,school,integer,RELAFFIL,68.0,Lutheran Church - Missouri Synod,IPEDS
+240,Religous affiliation of the institution,school,integer,RELAFFIL,69.0,Mennonite Church,IPEDS
+241,Religous affiliation of the institution,school,integer,RELAFFIL,71.0,United Methodist,IPEDS
+242,Religous affiliation of the institution,school,integer,RELAFFIL,73.0,Protestant Episcopal,IPEDS
+243,Religous affiliation of the institution,school,integer,RELAFFIL,74.0,Churches of Christ,IPEDS
+244,Religous affiliation of the institution,school,integer,RELAFFIL,75.0,Southern Baptist,IPEDS
+245,Religous affiliation of the institution,school,integer,RELAFFIL,76.0,United Church of Christ,IPEDS
+246,Religous affiliation of the institution,school,integer,RELAFFIL,77.0,"Protestant, not specified",IPEDS
+247,Religous affiliation of the institution,school,integer,RELAFFIL,78.0,Multiple Protestant Denomination,IPEDS
+248,Religous affiliation of the institution,school,integer,RELAFFIL,79.0,Other Protestant,IPEDS
+249,Religous affiliation of the institution,school,integer,RELAFFIL,80.0,Jewish,IPEDS
+250,Religous affiliation of the institution,school,integer,RELAFFIL,81.0,Reformed Presbyterian Church,IPEDS
+251,Religous affiliation of the institution,school,integer,RELAFFIL,84.0,United Brethren Church,IPEDS
+252,Religous affiliation of the institution,school,integer,RELAFFIL,87.0,Missionary Church Inc,IPEDS
+253,Religous affiliation of the institution,school,integer,RELAFFIL,88.0,Undenominational,IPEDS
+254,Religous affiliation of the institution,school,integer,RELAFFIL,89.0,Wesleyan,IPEDS
+255,Religous affiliation of the institution,school,integer,RELAFFIL,91.0,Greek Orthodox,IPEDS
+256,Religous affiliation of the institution,school,integer,RELAFFIL,92.0,Russian Orthodox,IPEDS
+257,Religous affiliation of the institution,school,integer,RELAFFIL,93.0,Unitarian Universalist,IPEDS
+258,Religous affiliation of the institution,school,integer,RELAFFIL,94.0,Latter Day Saints (Mormon Church),IPEDS
+259,Religous affiliation of the institution,school,integer,RELAFFIL,95.0,Seventh Day Adventists,IPEDS
+260,Religous affiliation of the institution,school,integer,RELAFFIL,97.0,The Presbyterian Church in America,IPEDS
+261,Religous affiliation of the institution,school,integer,RELAFFIL,99.0,Other (none of the above),IPEDS
+262,Religous affiliation of the institution,school,integer,RELAFFIL,100.0,Original Free Will Baptist,IPEDS
+263,Religous affiliation of the institution,school,integer,RELAFFIL,101.0,Ecumenical Christian,IPEDS
+264,Religous affiliation of the institution,school,integer,RELAFFIL,102.0,Evangelical Christian,IPEDS
+265,Religous affiliation of the institution,school,integer,RELAFFIL,103.0,Presbyterian,IPEDS
+268,25th percentile of SAT scores at the institution (critical reading),admissions,float,SATVR25,,,IPEDS
+269,75th percentile of SAT scores at the institution (critical reading),admissions,float,SATVR75,,,IPEDS
+270,25th percentile of SAT scores at the institution (math),admissions,float,SATMT25,,,IPEDS
+271,75th percentile of SAT scores at the institution (math),admissions,float,SATMT75,,,IPEDS
+272,25th percentile of SAT scores at the institution (writing),admissions,float,SATWR25,,,IPEDS
+273,75th percentile of SAT scores at the institution (writing),admissions,float,SATWR75,,,IPEDS
+274,Midpoint of SAT scores at the institution (critical reading),admissions,float,SATVRMID,,,IPEDS
+275,Midpoint of SAT scores at the institution (math),admissions,float,SATMTMID,,,IPEDS
+276,Midpoint of SAT scores at the institution (writing),admissions,float,SATWRMID,,,IPEDS
+277,25th percentile of the ACT cumulative score,admissions,float,ACTCM25,,,IPEDS
+278,75th percentile of the ACT cumulative score,admissions,float,ACTCM75,,,IPEDS
+279,25th percentile of the ACT English score,admissions,float,ACTEN25,,,IPEDS
+280,75th percentile of the ACT English score,admissions,float,ACTEN75,,,IPEDS
+281,25th percentile of the ACT math score,admissions,float,ACTMT25,,,IPEDS
+282,75th percentile of the ACT math score,admissions,float,ACTMT75,,,IPEDS
+283,25th percentile of the ACT writing score,admissions,float,ACTWR25,,,IPEDS
+284,75th percentile of the ACT writing score,admissions,float,ACTWR75,,,IPEDS
+285,Midpoint of the ACT cumulative score,admissions,float,ACTCMMID,,,IPEDS
+286,Midpoint of the ACT English score,admissions,float,ACTENMID,,,IPEDS
+287,Midpoint of the ACT math score,admissions,float,ACTMTMID,,,IPEDS
+288,Midpoint of the ACT writing score,admissions,float,ACTWRMID,,,IPEDS
+289,Average SAT equivalent score of students admitted,admissions,float,SAT_AVG,,,IPEDS
+290,Average SAT equivalent score of students admitted for all campuses rolled up to the 6-digit OPE ID,admissions,float,SAT_AVG_ALL,,,IPEDS
+291,"Percentage of degrees awarded in Agriculture, Agriculture Operations, And Related Sciences.",academics,float,PCIP01,,"Agriculture, Agriculture Operations, and Related Sciences",IPEDS
+292,Percentage of degrees awarded in Natural Resources And Conservation.,academics,float,PCIP03,,Natural Resources and Conservation,IPEDS
+293,Percentage of degrees awarded in Architecture And Related Services.,academics,float,PCIP04,,Architecture and Related Services,IPEDS
+294,"Percentage of degrees awarded in Area, Ethnic, Cultural, Gender, And Group Studies.",academics,float,PCIP05,,"Area, Ethnic, Cultural, Gender, and Group Studies",IPEDS
+295,"Percentage of degrees awarded in Communication, Journalism, And Related Programs.",academics,float,PCIP09,,"Communication, Journalism, and Related Programs",IPEDS
+296,Percentage of degrees awarded in Communications Technologies/Technicians And Support Services.,academics,float,PCIP10,,Communications Technologies/Technicians and Support Services,IPEDS
+297,Percentage of degrees awarded in Computer And Information Sciences And Support Services.,academics,float,PCIP11,,Computer and Information Sciences and Support Services,IPEDS
+298,Percentage of degrees awarded in Personal And Culinary Services.,academics,float,PCIP12,,Personal and Culinary Services,IPEDS
+299,Percentage of degrees awarded in Education.,academics,float,PCIP13,,Education,IPEDS
+300,Percentage of degrees awarded in Engineering.,academics,float,PCIP14,,Engineering,IPEDS
+301,Percentage of degrees awarded in Engineering Technologies And Engineering-Related Fields.,academics,float,PCIP15,,Engineering Technologies and Engineering-Related Fields,IPEDS
+302,"Percentage of degrees awarded in Foreign Languages, Literatures, And Linguistics.",academics,float,PCIP16,,"Foreign Languages, Literatures, and Linguistics",IPEDS
+303,Percentage of degrees awarded in Family And Consumer Sciences/Human Sciences.,academics,float,PCIP19,,Family and Consumer Sciences/Human Sciences,IPEDS
+304,Percentage of degrees awarded in Legal Professions And Studies.,academics,float,PCIP22,,Legal Professions and Studies,IPEDS
+305,Percentage of degrees awarded in English Language And Literature/Letters.,academics,float,PCIP23,,English Language and Literature/Letters,IPEDS
+306,"Percentage of degrees awarded in Liberal Arts And Sciences, General Studies And Humanities.",academics,float,PCIP24,,"Liberal Arts and Sciences, General Studies and Humanities",IPEDS
+307,Percentage of degrees awarded in Library Science.,academics,float,PCIP25,,Library Science,IPEDS
+308,Percentage of degrees awarded in Biological And Biomedical Sciences.,academics,float,PCIP26,,Biological and Biomedical Sciences,IPEDS
+309,Percentage of degrees awarded in Mathematics And Statistics.,academics,float,PCIP27,,Mathematics and Statistics,IPEDS
+310,Percentage of degrees awarded in Military Technologies And Applied Sciences.,academics,float,PCIP29,,Military Technologies and Applied Sciences,IPEDS
+311,Percentage of degrees awarded in Multi/Interdisciplinary Studies.,academics,float,PCIP30,,Multi/Interdisciplinary Studies,IPEDS
+312,"Percentage of degrees awarded in Parks, Recreation, Leisure, And Fitness Studies.",academics,float,PCIP31,,"Parks, Recreation, Leisure, and Fitness Studies",IPEDS
+313,Percentage of degrees awarded in Philosophy And Religious Studies.,academics,float,PCIP38,,Philosophy and Religious Studies,IPEDS
+314,Percentage of degrees awarded in Theology And Religious Vocations.,academics,float,PCIP39,,Theology and Religious Vocations,IPEDS
+315,Percentage of degrees awarded in Physical Sciences.,academics,float,PCIP40,,Physical Sciences,IPEDS
+316,Percentage of degrees awarded in Science Technologies/Technicians.,academics,float,PCIP41,,Science Technologies/Technicians,IPEDS
+317,Percentage of degrees awarded in Psychology.,academics,float,PCIP42,,Psychology,IPEDS
+318,"Percentage of degrees awarded in Homeland Security, Law Enforcement, Firefighting And Related Protective Services.",academics,float,PCIP43,,"Homeland Security, Law Enforcement, Firefighting and Related Protective Services",IPEDS
+319,Percentage of degrees awarded in Public Administration And Social Service Professions.,academics,float,PCIP44,,Public Administration and Social Service Professions,IPEDS
+320,Percentage of degrees awarded in Social Sciences.,academics,float,PCIP45,,Social Sciences,IPEDS
+321,Percentage of degrees awarded in Construction Trades.,academics,float,PCIP46,,Construction Trades,IPEDS
+322,Percentage of degrees awarded in Mechanic And Repair Technologies/Technicians.,academics,float,PCIP47,,Mechanic and Repair Technologies/Technicians,IPEDS
+323,Percentage of degrees awarded in Precision Production.,academics,float,PCIP48,,Precision Production,IPEDS
+324,Percentage of degrees awarded in Transportation And Materials Moving.,academics,float,PCIP49,,Transportation and Materials Moving,IPEDS
+325,Percentage of degrees awarded in Visual And Performing Arts.,academics,float,PCIP50,,Visual and Performing Arts,IPEDS
+326,Percentage of degrees awarded in Health Professions And Related Programs.,academics,float,PCIP51,,Health Professions and Related Programs,IPEDS
+327,"Percentage of degrees awarded in Business, Management, Marketing, And Related Support Services.",academics,float,PCIP52,,"Business, Management, Marketing, and Related Support Services",IPEDS
+328,Percentage of degrees awarded in History.,academics,float,PCIP54,,History,IPEDS
+519,Flag for distance-education-only education,school,integer,DISTANCEONLY,0.0,Not distance-education only,IPEDS
+520,Flag for distance-education-only education,school,integer,DISTANCEONLY,1.0,Distance-education only,IPEDS
+521,Enrollment of undergraduate degree-seeking students,student,integer,UGDS,,,IPEDS
+523,Total share of enrollment of undergraduate degree-seeking students who are white,student,float,UGDS_WHITE,,,IPEDS
+524,Total share of enrollment of undergraduate degree-seeking students who are black,student,float,UGDS_BLACK,,,IPEDS
+525,Total share of enrollment of undergraduate degree-seeking students who are Hispanic,student,float,UGDS_HISP,,,IPEDS
+526,Total share of enrollment of undergraduate degree-seeking students who are Asian,student,float,UGDS_ASIAN,,,IPEDS
+527,Total share of enrollment of undergraduate degree-seeking students who are American Indian/Alaska Native,student,float,UGDS_AIAN,,,IPEDS
+528,Total share of enrollment of undergraduate degree-seeking students who are Native Hawaiian/Pacific Islander,student,float,UGDS_NHPI,,,IPEDS
+529,Total share of enrollment of undergraduate degree-seeking students who are two or more races,student,float,UGDS_2MOR,,,IPEDS
+530,Total share of enrollment of undergraduate degree-seeking students who are non-resident aliens,student,float,UGDS_NRA,,,IPEDS
+531,Total share of enrollment of undergraduate degree-seeking students whose race is unknown,student,float,UGDS_UNKN,,,IPEDS
+544,"Share of undergraduate, degree-/certificate-seeking students who are part-time",student,float,PPTUG_EF,,,IPEDS
+546,"Flag for currently operating institution, 0=closed, 1=operating",school,integer,CURROPER,0.0,Not currently certified as an operating institution,FSA
+547,"Flag for currently operating institution, 0=closed, 1=operating",school,integer,CURROPER,1.0,Currently certified as operating,FSA
+548,Average net price for Title IV institutions (public institutions),cost,integer,NPT4_PUB,,,IPEDS
+549,Average net price for Title IV institutions (private for-profit and nonprofit institutions),cost,integer,NPT4_PRIV,,,IPEDS
+552,"Average net price for $0-$30,000 family income (public institutions)",cost,integer,NPT41_PUB,,,IPEDS
+553,"Average net price for $30,001-$48,000 family income (public institutions)",cost,integer,NPT42_PUB,,,IPEDS
+554,"Average net price for $48,001-$75,000 family income (public institutions)",cost,integer,NPT43_PUB,,,IPEDS
+555,"Average net price for $75,001-$110,000 family income (public institutions)",cost,integer,NPT44_PUB,,,IPEDS
+556,"Average net price for $110,000+ family income (public institutions)",cost,integer,NPT45_PUB,,,IPEDS
+557,"Average net price for $0-$30,000 family income (private for-profit and nonprofit institutions)",cost,integer,NPT41_PRIV,,,IPEDS
+558,"Average net price for $30,001-$48,000 family income (private for-profit and nonprofit institutions)",cost,integer,NPT42_PRIV,,,IPEDS
+559,"Average net price for $48,001-$75,000 family income (private for-profit and nonprofit institutions)",cost,integer,NPT43_PRIV,,,IPEDS
+560,"Average net price for $75,001-$110,000 family income (private for-profit and nonprofit institutions)",cost,integer,NPT44_PRIV,,,IPEDS
+561,"Average net price for $110,000+ family income (private for-profit and nonprofit institutions)",cost,integer,NPT45_PRIV,,,IPEDS
+617,Percentage of undergraduates who receive a Pell Grant,aid,float,PCTPELL,,,IPEDS
+656,"First-time, full-time student retention rate at four-year institutions",student,float,RET_FT4,,,IPEDS
+657,"First-time, full-time student retention rate at less-than-four-year institutions",student,float,RET_FTL4,,,IPEDS
+658,"First-time, part-time student retention rate at four-year institutions",student,float,RET_PT4,,,IPEDS
+659,"First-time, part-time student retention rate at less-than-four-year institutions",student,float,RET_PTL4,,,IPEDS
+660,Percent of all federal undergraduate students receiving a federal student loan,aid,float,PCTFLOAN,,,IPEDS
+661,Percentage of undergraduates aged 25 and above,student,float,UG25abv,,,IPEDS
+1933,"Median debt of completers, suppressed for n=30",aid,float,GRAD_DEBT_MDN_SUPP,,,NSLDS
+1934,"Median debt of completers expressed in 10-year monthly payments, suppressed for n=30",aid,float,GRAD_DEBT_MDN10YR_SUPP,,,NSLDS
+1935,"3-year repayment rate, suppressed for n=30",repayment,float,RPY_3YR_RT_SUPP,,,NSLDS
+1950,"150% completion rate for four-year institutions, pooled in two-year rolling averages and suppressed for small n size.  For four year school, students are considered to have graduated ""on time"" if they graduate within 6 years.",completion,float,C150_4_POOLED_SUPP,,,IPEDS
+1951,"200% completion rate for less-than-four-year institutions, pooled in two-year rolling averages and suppressed for small n size.  For two year schools, students are considered to have graduated ""on time"" if they graduate within 4 years.",completion,float,C200_L4_POOLED_SUPP,,,IPEDS
+1863,Median earnings of students working and not enrolled 10 years after entry,earnings,integer,md_earn_wne_p10,,,Treasury
+1903,"Share of students earning over $25,000/year (threshold earnings) 6 years after entry",earnings,float,gt_25k_p6,,,Treasury

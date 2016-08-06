@@ -1,0 +1,132 @@
+% !TeX encoding = UTF-8
+%2.假设
+\section{Hypothesis}
+\begin{itemize}
+    \item  Assuming that data collected is accurate and reliable, and can reflect real conditions preferably.
+        %假设我们排除的学校不影响最终的排名。经过我们对比题目所给的数据，有41所高校没有任何数据。我们无法对着41所高校做出评价。所以我们舍弃这些学校。
+    \item We assume that the schools we rule out do not have an impact on the last ranks considering the 41 schools with the lack of data so that we could not make a comment on these schools. 
+    %假设数据筛选后不影响整体的解释性。为了简化问题分析和模型建立，我们从主观判断上删除一些无用的指标。
+    \item The filtered data do not have effects on the explanations of the whole and we delete some indexes according to our subjective judgment in order to simplify analysis and model building. 
+\end{itemize}\par
+%3.数据处理
+\section{Data processing}
+\subsection{Collecting And Sorting out}
+The problem C provides data of 2977 candidate schools. The CollegeScorecardData  has 7804 schools’ data. We sort out the data of candidate schools by the ID. We find that there are 41 school don’t have data. So we try to get these data from the IPEDS. The IPEDS provides various reports and the statistical data, which include year and statistical variable. Because of the types of the data classified difficultly, we download all the data of the IPEDS. Then we sort them out seriously.\par
+We get 913 data from IPEDS eventually. We use ID to matching the 41 schools, which don’t have data. From the analysis result we can know that, the data is missing seriously. The analysis result is showed below:
+
+Table 1
+
+There are many “null” and “PrivacySuppressed” among the data the problem provides. We call them “missing data”. Through analyzing the data carefully, we know that this situation is result from the different institutions, which have different attributes such as the educational system respectively. We divide the schools into different types according to their attributes. 
+
+Table 2
+
+\subsection{Feature Extraction based on PCA(Principal component analysis)}
+We extract 28936 data in all about the candidate schools from the CollegeScorecardData. We exclude some schools which are not open according to the variable “CURROPER”. Eventually there are 2936 schools ranking. The data in the CollegeScorecardData are not able to be used for calculating. We exclude these indexes which is useless for us. We get 98 variables in the end,
+For integrating the data, we use PCA algorithm to process them. The derailed process of PCA are as follows: 
+%主成分分析过程
+From the results, we can know that we could select 14 principal components, whose contribution rate reach to 99%.
+
+
+\section{4.模型建立及求解}
+\subsection{4.1 确定候选名单的模型}
+%4.1.1层次分析法模型
+\subsubsection{Analytic Hierarchy Process Model}
+%题目要求通过回报率和资金利用率来确定投资候选名单。而回报率与资金利用率是和更加具体的指标有关系的。所以我们采用了三层结构的层次分析法求解问题。
+The problem needs us to determine the candidate school list by return on investments and fund utilization rate, which have something to do with some factors, so we employ AHP with three-level hierarchy structure as the way combining the weighting coefficients of all the factors in the evaluation system to obtain rankings.\par
+The specific process of analytic hierarchy process is described in the following procedure.\par
+层次分析法具体过程如下：
+\begin{itemize}
+    % 建立递阶层次结构模型
+    \item[Step1]Building hierarchical structural model
+    %    通过查阅相关资料、文献，我们建立了层次模型，结果如下图所示：
+    We determine the structural model through investigating materials, the result can be seen as followed:
+    
+    层次结构图
+    
+    
+    % 构造指标间的判断矩阵
+    \item[Step2] Constructing judgment matrix among factors.
+    % 通过当地专家采用1~9标度打分，对各层因素两两间量化判断，可以得到相应的判断矩阵。
+    We use the pairwise-comparison method and 1–9 method of AHP to get the corresponding judging matrix.
+    % 层次单排序一致性检验
+    \item[Step3] Consistency check of single hierarchical arrangement 
+    % 定义CI为一致性指标。
+    We define CI as Consistency index
+    
+    公式8
+    
+    公式9
+    
+    %一般用CR值判断。当CR<0.1时，认为成对比较的逆对称矩阵可以接受。其中RI取值见下表:
+    Generally, CR value is used to judge. When CR < 0.1, inverse symmetric matrices can be excepted. RI values can be seen in the following table:
+    
+    RI取值表
+    
+    % 层次总排序及组合一致性检验
+    \item[Step4] Consistency check of total taxis of hierarchy.
+    %设上一层A包含m个因素A1，A2，，，Am。A的层次总排序权值分别为a1，，，am。下一层B包含n个因素B1，，，Bn。这些因素对于Aj的层次单排序的权值分别为b1j，，，bnj。那么，此时B层的总排序权值如下表所示：
+    Level $A$ has m indexes like $A_1，A_2 \cdots A_m$, and the weights of A total taxis of hierarchy are $a_1, \cdots, a_m$. Level $B$ includes $n$ indexes like $B_1 \cdots B_n$.
+    Eventually, we could get the weight of $B$’s total taxis of hierarchy which can be seen in the below according to the $A$ level single hierarchical arrangement.
+    
+    总排序表
+    
+    % 层次总排序一致性检验为：
+    We get consistency check of total taxis of hierarchy
+    
+    公式10
+    
+    % 当CR<0.1时，认为层次总排序的结果具有满意的一致性。
+    % 最终得到的评价模型为：
+    When $CR < 0.1$, the results of total taxis of hierarchy satisfy the criteria.\\
+    At last ,we can get:
+    
+    公式11
+    
+\end{itemize}\par
+
+%4.1.2模型求解和结果分析
+\subsubsection{Results and Analysis}
+% AHP的排序结果如下表所示：
+Finally, we can obtain the final rankings of the schools using the AHP model.
+
+前几名的排序表
+
+% 结果分析：
+The analysis of conclusion:
+% 我们得到的CR值为XX，可以认为排序结果具有满意的一致性。
+The value of CR is, we draw a conclusion the result of ranking satisfies the criterion for consistency.Analyzing the weight vector of criteria level, the highest weight is for XXX指标.The weight of X指标 is the lowest.
+
+%4.2 
+\subsection{The calculation of the Return On Investment(ROI)}
+%4.1.1 ROI定义
+\subsubsection{The definition of ROI}
+%在金融中，投资回报率指的是投资某个项目后所获得的收益的多少。而我们这道题目中，反映的是学生完成大学学业与否以及毕业后的情况。我们查阅相关文献资料了解在教育方面对ROI的理解。我们结合我们手中拥有的数据。我们给出ROI的定义如下： 
+In financial terms, return on investment refers to the proportion of total profits obtained after investing one project. However, we define RIO as followed:
+
+定义式
+
+%其中，I表示毕业学生收入总和；n表示毕业学生人数；k表示6年后收入达到阈值的人数比例；m为毕业学生收入中位数；s表示招生人数；L_1表示兼职留校率，L_2表示非兼职留校率；p表示兼职率；g表示学校毕业率。
+Where $I$, is the total revenue of graduated students; 
+where $n$, is the total number of graduated students; 
+where $k$, is the proportion of graduated students whose revenues reach threshold six years later; 
+where $m$, is the median incomes of graduated students; 
+where $s$ ,is the enrollments; 
+where $L_1$ ,refers to part-time student retention rate; 
+where $L_2$, refers to retention rate of students without jobs; 
+$P$ refers to the proportions of part-time students; 
+$g$ refers to graduation rate.
+
+%4.2.2 ROI计算与验证
+\subsubsection{The calculation of ROI and the validation of rankings}
+%我们根据我们所建立的ROI计算公式，计算了若干学校的ROI指标，部分结果如下图：
+We calculate ROI of all schools based on the formula of ROI, partial results are shown below:
+
+学校与对应的ROI值表
+
+从表中可以看出：
+%层次分析法对主观因素依赖性较强。我们结合计算得到的各个学校的ROI值。综合考虑最终后，得到最终的投资候选名单为：
+AHP is a subjective method. It largely depends on artificial scoring, so we calculate the ROI of every school to get the last rankings under the comprehensive consideration. The result is shown as followed:
+
+投资候选名单，包含评价顺序一列，ROI值排序一列
+
+

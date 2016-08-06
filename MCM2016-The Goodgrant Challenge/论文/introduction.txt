@@ -1,0 +1,23 @@
+1.Introduction
+1.1Problem Analysis
+we understand this issue as a problem about investment portfolio according to the majority of topic, not only that ,we need to appropriately provide a definition about return on investment (ROI),which should meet the need of the Goodgrant Foundation. Here, we think that ROI is a reflection of the social value the college graduates produce. At the same time, identifying the schools, the investment amount per school, the return on that investment, and the time duration should be enclosed in an optimal investment strategy we give by taking advantage of the present data. Eventually, we should also write a letter about investment strategy to Mr. Alpha Chiang.
+
+
+In order to give a definition about ROI, we determine the factors affecting ROI by consulting reference materials, then we formulate a synthetic evaluation model based on the standard of return on investment and effectiveness of funds. Subsequently, a short list about investment on schools can be got by ranking. Moreover, we could build a pseudo-portfolio model to distribute funds to the candidate school by employing the return on investment and fund utilization rate.
+
+
+As for the duration time ,we can get the return on investment variation with time using several years of statistical data to determine the duration of the best investments.
+
+
+1.2 Previous Research
+Endowment income as an important financing channel from sources of education funds has attracted great attention in American high schools. However, it seems especially important in how to allocate finance and identify the school to generate the maximum ROI. How do we measure the return on investment for donations in terms of operators of foundation? It is a very profound knowledge because what the charitable donations refer to is not only direct economic benefits ,but invisible social benefits. Stanley E. Fawcett and Matthew A. Wallers point out that society is looking for a return on its investment—even a reinvention of the university.(引用The Quest for Societal ROI in the Midst of the Perfect Storm:Can SCM Set the Standard for Twenty-First Century Business Education? Journal of Business Logistics, 2015, 36(1): 1–8) Now a revolution has begun, thanks to three forces: rising costs, changing demand and disruptive technology. The result will be the reinvention of the university.— The Economist (2014b)（引用The Economist. 2014b. “Higher Education: Creative Destruction.” The Economist (June 28). http://www.economist.com/news/
+leaders/21605906-cost-crisis-changing-labour-markets-and-newtechnology-will-turn-old-institution-its).In our paper, we place emphasis on the definition of RIO and formulate a model to determine an optimal investment strategy that identifies the schools, the investment amount per school, the return on that investment, and the time duration ,solving the problem step by step.
+
+
+1.3  Outline of Our Model
+
+To improve the feasibility of the model, the first step is to preprocess the data about information of 2977 schools. It is found that 41 schools are ruled out due to the lack of data, then we screen the indexes of all the schools preliminary and ensure the indexes related to ROI and fund utilization rate. 
+  
+The screened data is used to analyze the correlation in order to reduce dimensions by the PCA, and we combine the advantages of AHP and FSE to build a model for get the evaluation results, a short list of aided schools being out.
+
+We will make investments in the schools which are high ROI and fund utilization rate by calculating. Furthermore, funds needs to be properly allocated for schools, so we formulate a pseudo-portfolio model to get the optimal solution with hybrid particle swarm optimization algorithm. Considering the duration, we eventually obtain the ROI of every school in several years using data, and carry out the fitting the ROI with time variation. Hence, we could judge the duration of investment by fitting results representing maximized ROI.

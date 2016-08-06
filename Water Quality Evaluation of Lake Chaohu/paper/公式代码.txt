@@ -1,0 +1,33 @@
+$$L_i=\sum_{j=1}^nE_{ij}A_j+p$$
+$$L_i=L_{ps}+L_{io}+\sum_{j=1}^n[E_{ij}(M_{ij})]A_j+p$$
+$$L_i=C_i\times\frac{Q}{k_i}$$
+$$\frac{C_i\times Q}{k_i}=L_{ps}+L_{io}+\sum_{j=1}^n[E_{ij}(M_{ij})]A_j+p$$
+$$L_{ps}=\frac{C_k\times Q_k}{D_k\times k_i}$$
+$$L_{io}=\sum_{j=1}^{n}[E_{ij}M_{ij}]A_j$$
+$$
+\begin{cases}
+\displaystyle\frac{C_{i1}\times Q_1}{k_{i1}}=\displaystyle\frac{C_{k1}\times Q_{k1}}{D_{k1}\times k_{i1}}\times365+L_{io1}+\sum_{j=1}^n[E_{ij}(M_{ij})]A_{j1}+p_1\\
+\qquad\qquad\qquad\qquad \qquad\qquad\cdots\\
+\displaystyle\frac{C_{it}\times Q_t}{k_{it}}=\displaystyle\frac{C_{kt}\times Q_{kt}}{D_{kt}\times k_{it}}
+\times365+L_{iot}+\sum_{j=1}^n[E_{ij}(M_{ij})]A_{jt}+p_t\\
+\qquad\qquad\qquad\qquad \qquad\qquad\cdots\\
+\displaystyle\frac{C_{im}\times Q_m}{k_{im}}=\displaystyle\frac{C_{km}\times Q_{km}}{D_{km}\times k_{im}}
+\times365+L_{iom}+\sum_{j=1}^n[E_{ij}(M_{ij})]A_{jm}+p_m
+\end{cases}
+$$
+$$CI=\!\!\frac{\lambda_{max}-n}{n-1}$$
+$$CR=\frac{CI}{RI}$$
+
+
+\begin{table}[H] \renewcommand\arraystretch{1.5}
+    \begin{center}
+        \caption{\footnotesize {Symbols Used in This Section}}
+        \label{tab.t1}%可有可无
+        \begin{footnotesize}
+\begin{tabular}{ccccccccccc}\toprule[1pt]
+\it \bf n & \bf 1    &\bf 2     & \bf 3  & \bf 4   &\bf 5 & \bf 6 & \bf 7 & \bf 8 & \bf 9&\bf 10   \bigstrut\\\hline
+\bf RI & 0.00 &0.00 &0.58 &0.90&1.12&1.24&1.32&1.45&1.51&1.41\bigstrut\\\bottomrule[1pt]
+\end{tabular}
+\end{footnotesize}
+    \end{center}
+\end{table}

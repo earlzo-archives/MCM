@@ -1,0 +1,20 @@
+Control of institution,school,integer,CONTROL,IPEDS,3
+Flag for Alaska Native Native Hawaiian serving institution,school,integer,ANNHI,OPE,2
+Flag for Asian American Native American Pacific Islander-serving institution,school,integer,AANAPII,OPE,2
+Flag for Hispanic-serving institution,school,integer,HSI,OPE,2
+Flag for Historically Black College and University,school,integer,HBCU,OPE,2
+Flag for Native American non-tribal institution,school,integer,NANTI,OPE,2
+"Flag for currently operating institution, 0=closed, 1=operating",school,integer,CURROPER,FSA,2
+Flag for distance-education-only education,school,integer,DISTANCEONLY,IPEDS,2
+Flag for men-only college,school,integer,MENONLY,IPEDS,2
+Flag for predominantly black institution,school,integer,PBI,OPE,2
+Flag for tribal college and university,school,integer,TRIBAL,OPE,2
+Flag for women-only college,school,integer,WOMENONLY,IPEDS,2
+Locale of institution,school,integer,LOCALE,IPEDS,12
+"Predominant degree awarded
+0        Not classified
+1        Predominantly certificate-degree granting
+2        Predominantly associate's-degree granting
+3        Predominantly bachelor's-degree granting
+4        Entirely graduate-degree granting",school,integer,PREDDEG,IPEDS,5
+Religous affiliation of the institution,school,integer,RELAFFIL,IPEDS,65

@@ -1,0 +1,20 @@
+	\begin{table}[H] \renewcommand\arraystretch{1.5}
+	\centering\
+	 	\begin{footnotesize}
+	 		\newcolumntype{V}{!{\vrule width 1.5pt}}
+				\begin{tabular}{Vc|c|cV}\Xhline{1.5pt}
+					\multirow{2}*{Data For the Ranking}
+		&Four-year institutions&1896\\\cline{2-3}
+		&Less-than-four-year institutions&1007\\\hline
+				\multirow{3}*{Discarded Data}
+				&Data Missing&41\\\cline{2-3}
+				&No Runing& 8  \\\cline{2-3}
+				&Unknown Type&25\\\hline
+				\multicolumn{2}{Vc|}{Amout}&2977\\\Xhline{1.5pt}
+					
+			     \end{tabular}
+			\end{footnotesize}
+			\caption{\footnotesize {The final Data and Statistics}}
+			\label{tab.t1}
+	\end{table}
+%¼ÓÔØºê°ümakecell	

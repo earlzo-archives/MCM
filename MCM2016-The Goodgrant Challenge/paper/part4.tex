@@ -1,0 +1,89 @@
+\subsubsection{4.4.3简化模型的求解及结果分析}
+%微粒群算法,又称粒子群优化(particle swarm optimization, PSO)是一类基于群体智能的随机优化算法。是由J. Kennedy和R. C. Eberhart等于1995年开发的一种演化计算技术。现已广泛应用于函数优化、神经网络训练、模式分类、模糊系统控制以及其他遗传算法的应用领域
+Particle Swarm Optimization is a random optimization algorithm based on swarm intelligence, which is evolutionary computation technology, developed by J. Kennedy and R. C. Eberhart in 1995. Now, it is widely used in function, optimization neural network training and fuzzy control system$^{[\ref{}]}$.\par
+
+[曾建潮,介婧,崔志华.微粒群算法[M].北京:科学出版社,2004:9- 13]
+
+In the D –dimension search space, a group consists of n particles and i th particle refers to D-dimensional vectors, $x_i=(x_{i1},x_{i2},\cdots,x_{iD})^T,i=1,2,\cdots,n$. Then we plug $x_i$ back into a objective function to get its adaptive value. By comparing the size of value ,we can measure the strength and weakness.\par
+
+The flight speed of i th particle should also be n dimensional vectors:
+$$v_i=(v_{i1},v_{i2},\cdots,v_{iD})^T,i=1,2,\cdots,n$$
+But the speed of each dimension is limited the area $[-v_{max},v_{max}]$,$v_{max}$ determines the accuracy between current position and the best position. If $v_{max}$ is high, the particle may miss the optimal solution, on the contrary, if $v_{max}$ is too small, the particle will not explore insufficiently so as to be trapped in local optima.
+The best position i th particle searched to date is:
+$$p_i=(p_{i1},p_{i2},\cdots,p_{iD})^T,i=1,2,\cdots,n$$
+At the $n$ th iteration, the optimal location the particle swarm searched is:
+$$p_g=(p_{g1},p_{g2},\cdots,p_{gD})^T,g=1,2,\cdots,m$$ 
+Before finding two optimal values, the particle swarm updates speed and position in the following equations;
+$$\begin{cases}
+v_{id}^{k+1}=w \times v_{id}^k+c_1r_1(p_{id}-x_{id}^k)+c_2r_2(p_{gd}-x_{gd}^k)\\
+x_{id}^{k+1}=x_{id}^k+v_{id}^{k+1}
+\end{cases}$$
+$i=1,2,\cdots,n$;$d=1,2,\cdots,D$;where $c_1$ and $c_2$, are learning factor and nonnegative number, which belong to $[0,2]$;$r_1$and $r_2$ are random numbers between 0 and 1;k refers to iteration.\par
+%在利用粒子群算法时，为了简化问题，增加对粒子扩散的约束，主观因素引入一个参数e。则粒子群算法变为：
+When using particle swarm algorithm,in order to simplify the problem and increase the confinement on the particle, so we introduce a subjective factor $e$.
+ 
+$$\begin{cases}
+v_{id}^{k+1}=w\times v_{id}^k+c_1r_1(p_{kl}-x_{kl}^k)+c_2r_2(p_{gd}-x_{gl}^k)\\
+x_{id}^{k+1}=x_{id}^k+v_{id}^{k+1}\\
+x_{id}^{k}\leqslant e
+\end{cases}$$
+%参数设定如下：w的取值范围[0.8,1.0]。常数c1,c2取值范围为[0,2]。权重变化速度的界限常数vmax取值范围为[0,1]。 e作为约束条件分别设置为(5,10,15,20,25,30,35,40,45,50),本实验结束条件为最大迭代次数600次。
+Parameters are set as follows:
+The range of w is 0.8 to1.0;The constant range is 0 to 2.where $v_max$, is the limit of speed and range from 0 to 1.
+$e$ as condition of constraint is set $(5,10,15,20,25,30,35,40,45,50)$respectively. 
+The number of iterations just only reach 600 times.
+
+
+结果分析（待定）
+
+%5.灵敏性分析
+\section{Sensitivity Analysis}
+%5.1 ROI定义式的灵敏性分析
+\subsection{The sensitivity analysis of the definition of ROI}
+%在实际情况中，很多因素我们是有很大不确定性的。我们计算ROI对毕业生的工资（题目所给数据中的一项指标）的灵敏性程度。我们记ROI为r，则得到:
+
+公式
+
+In the actual situation,many factors exist considerable uncertainty. We can get the degree of sensitivity between graduated students’ income and ROI by calculating and define ROI as r, then we get  
+
+$$S(r,m)=\frac{dr}{dm}\cdot\frac{m}{r}=1.6$$
+
+%由公式可以看出来，工资每增加10%, 学校的ROI提高16%。ROI定义式对工资具有较好的稳定度。因为我们所定义的ROI是毕业学生的社会贡献程度。而工资水平放映了他一定的贡献度。
+From the equation, we can explicitly see that the ROI improves 16\% when the income increases 10\% in per, which reflect the good stability of income in terms of
+ROI definition, because the ROI we define is the degree of contributions to society for students. Coincidently, wage can show contributions to some extent.
+\par
+
+\subsection{5.2简化模型的灵敏性分析}
+%实际投资中，我们面临的投资学校数目将是巨大的。我们分析投资结果对可投资数目的灵敏性。通过增加数目，粒子群算法收敛性越来越差。这个情况说明的我们的模型稳定性很差。需要进一步分析约束条件的设定。
+In the actual investment, we will have to solve more schools to invest. We analyze the sensitivity of the investment results about the numbers of schools. The convergence of PSO becomes worse and worse with the numbers increasing. This result indicates that the stability of our model is poor. We need future work to improve our model.\par
+
+%6.模型评价
+\section{Model analysis}
+%优点
+\subsection{Strength}
+%我们对数据分析的较为透彻。我们仔细分析了数据类型及性质。理解了“null”值出现的原因，有效的解决了问题。
+We have a clear understanding of data by analyzing data types and properties and know the reason why ‘’NULL’’ appears, solving the problem effectively.
+%我们将问题分解为几个子问题求解，将问题细化。我们一共建立了三个模型，分别用于求解投资学校、投资金额以及持续时间。模型之间相互联系，共同构成一个整体。
+We further classify a problem into some small problems and build three models, which are used in identifying investment schools, investment amount and duration time. The models interconnect mutually and constitute a whole. 
+%合理提出假设，并初步细化模型。我们通过提出合理的假设，简化问题的分析。然后逐步建立复杂模型，逼近真实情况。
+Reasonable assumptions are proposed properly and the models are break down. We firstly simplify the analysis of the problem by coming up with reasonable assumption. Then we build the more complex model step-by-step to approach the real situation.
+
+%缺点
+\subsection{Weakness}
+%定义的ROI考虑不全面。我们只考虑了与ROI最直接相关的因素。所以，对于ROI的定义不够准确，在一定程度上无法反映各个大学真是的回报率。
+We consider the factors uncomprehensive when we define the ROI. We only take into account the directly factors. So the definition we propose is inaccurate. It is not able to reflect the real ROI of each university.
+%数据处理主观判断影响较大。通过对题目给的数据以及收集的数据的整理，我们主观舍弃了一些没有价值的指标。使我们最后分析的结果有一定影响。
+The subjective judgment influences the data processing a lot. Through sorting out the data the problem provides or we collect, we abandon some indexes subjectively. It may lead to some effect on the results.
+%AHP评价结果受主观因素影响较大，不够准确。
+The results getting from the AHP are easily influenced by the subjective judgment. 
+%持续时间估算的不够准确。由于学校不同年份的数据较少，每个学校只有4到5年的数据。根据图像走势作出的判断不够准确。
+The time duration is not inaccurate. Because the data of schools for each year are little. There only are four or five years data for each school. So the time duration we estimate is unreliable.
+\subsection{Future work }
+%完善对ROI的定义。进一步分析数据，找出所有与ROI相关的因素。建立更能够反映学校回报率的ROI定义。优化投资策略。
+We need to complete the definition of ROI. We need analyze the data more deeply to find all the factors related ROI. Then we define the ROI again.
+%结合模糊综合评价，降低AHP的主观性的影响。模糊综合评价更依赖于数据。整合两种评价方法，选取恰当的权值比例。能够有效地减少AHP的主观因素影响。这样可以进一步优化候选名单。
+We could combine the Fuzzy Comprehensive Evaluation(FCE). FCE is an objective method, it depends on data. To comprehensively consider the effect of subjective and objective factors, we can improve the reliability of our results.
+%完善动态的多期的投资组合模型。多期多目标动态投资组合模型，考虑情况更加接近实际情况。通过这个模型，可以在统一分析投资资金、投资学校和投资时间的情况下求解各值。
+We need to complete the portfolio investment dynamic model. This model takes all the relation into consideration to increase the reliability of our results. 
+
+7.参考文献

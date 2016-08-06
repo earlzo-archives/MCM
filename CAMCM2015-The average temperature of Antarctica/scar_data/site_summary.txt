@@ -1,0 +1,164 @@
+% File Generated: 02-Feb-2012 01:22:39
+% Dataset Collection: Scientific Committee on Antarctic Research
+% Type: TAVG - Monthly
+% Version: LATEST
+% Dataset Hash: e0e288f6c3f347cf7f7b2e1ba302faa2
+% 
+% ------------------------------------
+% 
+% The associated dataset name is shown above, while this file should have the 
+% name
+% 
+% 	site_summary.txt
+% 
+% For general information about this data product, please refer to the associated 
+% data set readme file: README.txt
+% 
+% The current file contains a brief summary of the geolocation data for stations 
+% appearing in this dataset.  Information is presented in tab delimited columnar 
+% format.  Primary temperature data, secondary data such as quality control 
+% flags, and other metadata can be found in other files in the same directory and 
+% should be distributed together.
+% 
+% In addition, the files:
+% 
+% 	site_detail.txt
+% 	site_complete_detail.txt
+% 
+% Provide additional information detail regarding each site and may be used in 
+% place of this file.  The current file is meant as a simple summary for user 
+% convenience and only provides basic geolocation info.
+% 
+% The columns contained in this file are as follows:
+% 
+% 	Station ID: A unique integer identifying each station.
+% 
+% 	Latitude: The present day latitude of the station in degrees and decimal 
+% fraction of a degree.  Latitudes run from -90 to +90, where negative numbers 
+% indicate positions in the southern hemisphere.
+% 
+% 	Longitude: The present day longitude of the station in degrees and decimal 
+% fraction of a degree.  Longitudes run from -180 to +180, where negative numbers 
+% indicate positions in the western hemisphere.
+% 
+% 	Elevation: The reported elevation of the station in meters above mean sea 
+% level.
+% 
+% 
+% Note that these locations reflect present station position only.  Information 
+% on historical site locations, if available, is provided in the file 
+% "site_complete_detail.txt".  Information on the state name, country of 
+% residence, various identification, and other station metadata can be found in 
+% "site_detail.txt" or "site_complete_detail.txt".
+% 
+% 
+% ------------------------------------
+% Station ID, Latitude, Longitude, Elevation (m)
+% 
+2846	 -84.9000	-128.8000	 990.00
+2858	 -82.3000	-113.2000	1433.00
+2882	 -78.0000	 -38.8000	  50.00
+2884	 -78.0000	 166.6000	   5.00
+2911	 -76.0000	  65.0000	2345.00
+2916	 -75.4000	 -59.9000	  40.00
+2924	 -74.8000	 163.3000	  40.00
+2928	 -74.7000	 164.0000	 160.00
+2929	 -74.7000	 164.1000	  92.00
+2933	 -74.3000	 163.2000	 650.00
+2936	 -74.1000	 163.4000	1702.00
+2941	 -73.6000	 160.7000	1982.00
+2942	 -73.6000	 166.6000	 163.00
+2944	 -73.5000	  76.7800	2565.00
+2948	 -73.1000	 169.6000	 310.00
+2979	 -70.0000	 134.9000	2500.00
+2990	 -68.7000	  61.1000	1835.00
+2999	 -68.1000	 137.5000	2105.00
+3005	 -67.4000	 138.7000	1560.00
+3008	 -67.1000	 141.4000	 871.00
+3010	 -67.0000	 142.7000	  31.00
+3012	 -66.9000	 -60.9000	  17.00
+3018	 -66.7000	 139.8000	 240.00
+3031	 -66.3000	 110.8000	 390.00
+3040	 -65.0000	 -65.7000	  25.00
+3068	 -62.2000	 -58.9000	  10.00
+3080	 -52.0000	 169.0000	  19.00
+81315	 -90.0000	   0.0000	2835.00
+81316	 -90.0000	   0.0000	2835.00
+81317	 -89.0000	  -1.0000	2754.00
+81318	 -89.0000	  89.7000	3065.00
+81319	 -84.6000	-115.8000	1463.00
+81320	 -83.1000	 174.2000	  60.00
+81321	 -83.0000	-121.4000	 954.00
+81322	 -82.6000	-137.1000	 549.00
+81323	 -82.5000	-174.4000	  55.00
+81324	 -80.0000	-178.6000	  30.00
+81325	 -80.0000	-120.0000	1515.00
+81326	 -80.0000	-119.4000	1530.00
+81327	 -80.0000	 165.1000	  75.00
+81328	 -79.9000	 170.0000	  60.00
+81329	 -78.6000	 166.7000	  50.00
+81330	 -78.5000	 106.9000	3490.00
+81331	 -78.5000	 168.4000	  50.00
+81332	 -77.9000	 -34.6000	 256.00
+81333	 -77.9000	 166.5000	  20.00
+81334	 -77.9000	 166.7000	  16.00
+81335	 -77.9000	 166.7000	  24.00
+81336	 -77.9000	 170.8000	  45.00
+81337	 -77.4000	 163.7000	 120.00
+81338	 -77.3000	  39.7000	3810.00
+81339	 -76.7000	 163.0000	 201.00
+81340	 -76.2000	 168.4000	 275.00
+81341	 -75.9000	 -84.0000	1054.00
+81342	 -75.5000	 -26.4000	  30.00
+81343	 -75.1000	 123.4000	3280.00
+81344	 -74.9000	 163.7000	  80.00
+81345	 -74.8000	-136.9000	 124.00
+81346	 -74.2000	 160.4000	1772.00
+81347	 -74.0000	  43.1000	3353.00
+81348	 -73.8000	  55.7000	2743.00
+81349	 -73.2000	-127.1000	  30.00
+81350	 -72.8700	 -19.0300	  34.00
+81351	 -72.2000	 -60.2000	  91.00
+81352	 -71.9000	 171.2000	  30.00
+81353	 -71.6000	 111.3000	2763.00
+81354	 -71.5000	  24.1000	 931.00
+81355	 -71.4000	 -68.9000	 780.00
+81356	 -71.3000	  59.2000	2619.00
+81357	 -70.8000	  11.8000	 119.00
+81358	 -70.7000	  -8.4000	  50.00
+81359	 -69.5000	 159.4000	 304.00
+81360	 -69.4000	  76.4000	  18.00
+81361	 -69.0000	  39.6000	  21.00
+81362	 -68.6000	  78.0000	  13.00
+81363	 -68.5000	 102.1000	2125.00
+81364	 -68.1000	 -67.1000	   4.00
+81365	 -67.8000	 -68.9000	  26.00
+81366	 -67.7000	  45.9000	  40.00
+81367	 -67.6000	  62.9000	  16.00
+81368	 -67.6000	 146.2000	  30.00
+81369	 -67.5000	 -68.1000	  32.00
+81370	 -67.4000	-180.0000	  30.00
+81371	 -66.8000	 141.4000	  39.00
+81372	 -66.7000	 112.7000	1368.00
+81373	 -66.7000	 140.0000	  43.00
+81374	 -66.5000	  93.0000	  30.00
+81375	 -66.3000	 110.5000	  42.00
+81376	 -66.3000	 110.8000	 392.00
+81377	 -64.8000	 -64.1000	   8.00
+81378	 -64.2000	 -56.7000	 198.00
+81379	 -64.1000	 -61.6000	  17.00
+81380	 -63.4000	 -57.0000	  13.00
+81381	 -63.3000	 -57.9000	  10.00
+81382	 -63.0000	 -60.7000	   8.00
+81383	 -62.5000	 -59.7000	   5.00
+81384	 -62.2000	 -59.0000	  10.00
+81385	 -62.2000	 -58.9000	  16.00
+81386	 -62.2000	 -58.7000	  11.00
+81387	 -62.2000	 -58.6000	   4.00
+81388	 -62.1000	 -58.4000	  20.00
+81389	 -60.7000	 -45.6000	   6.00
+81390	 -60.7000	 -44.7000	   6.00
+81391	 -54.5000	 158.9000	   8.00
+81392	 -54.3000	 -36.5000	   3.00
+81393	 -46.8000	  37.8000	  24.00
+81394	 -40.4000	  -9.9000	  54.00

@@ -1,0 +1,91 @@
+%4.3持续时间模型
+\subsection{Duration-time Model}
+
+4.3.1模型的建立
+对于持续时间，我们通过计算不同年份的ROI随时间变化来确定。我们以The Ohio State University at Columbus学校为例，说明模型建立过程。
+Step1.收集学校信息
+我们从the U.S. National Center on Education Statistics收集了The Ohio State University at Columbus2007年到2010年的数据。
+Step2.计算ROI值
+通过整理、提取收集的数据，我们计算出07年至2010年各个年份对应的ROI值。
+Step3.曲线拟合分析
+我们将数据进行曲线拟合，图像如下：
+曲线拟合图
+通过图像我们可以了解到，学校的ROI值起伏变化。但是学校ROI的整体变化趋势是呈现递增的。所以我们对该学校投资时间越长越好。
+同样的道理，我们可以得到其他学校的投资持续时间。持续时间分布图如下：
+持续时间分布图
+
+%4.4投资组合优化模型
+\subsection{Optimal Model on Investment Combination}
+
+%4.4.1金融领域的投资组合问题
+\subsubsection{Investment Combination problem in the financial sector}
+%投资，是指一定的经济主体将现期一定的收入转化为资产或资本以获得不确定的回报。其中广义的投资是指将资金投入风险领域以期获得较高回报的行为。狭义的投资是指投资者向新兴的、快速发展的或者高科技（有巨大的竞争潜力）企业投入股权资本，直接参与企业创业的行为。
+Investment refers that economic agents transform certain income into assets or working capital to get the uncertain return. Moreover, generalized investment is an act of pumping the capital into risky area to get the high return, and narrowed investment is an act of participating in business venture.\par
+%投资组合问题是金融学领域一个重要的课题。它主要研究如何在不确定的情况下对金融资产进行合理配置与选择，从而实现收益率最大化与风险最小化之间的均衡。1952年，经济学家Harry M.Markowitz在《The Journal of Finance》杂志上发表了“Portfolio Selection”。Markowitz指出，理性的投资者总是寻求在给定期望收益水平的条件下，使风险最小的投资组合X。在该理论中，Markowitz用随机变量表示股票的价格，以它的均值来衡量收益。用随机变量的方差衡量风险，放映出收益的不稳定性。求给定风险下的最小风险或给定风险下的最大收益的投资组合问题，归结为一个线性约束下的二次规划问题。
+Portfolio problem is an important topic in the field of finance. Its major research object is how to allocate the financial assets reasonably under the uncertainty to keep the balance between maximized yields and minimizing risks. Economist Harry M.Markowitz has pointed out that rational investor always seek the expectation for profit to minimize the risks of investment portfolio. He used the random variable as the price of stock , its mean to measure profit and the variance of a random variable to measure risks. Eventually, investment combinations problem under the minimal risks or given risks of maximum benefit can be boiled down the quadratic programming problem with linear constraints.\par
+%设有n种风险资产。它们的收益率为随机变量R，协方差矩阵为V。其中ri表示第i种资产的随机收益率。投资组合为X=（。。。），xi表示投资者对第i种资产的投资比例。Markowitz的投资组合模型为：
+We assume n kinds of risk assets. Their yields are random variable R and covariance matrices are v. $X=(x_1,x_2,\cdots,x_i)$ represents investment portfolio, so we can get 
+$min \frac{1}{2}x^Tvx$	
+$$s.t
+\begin{cases}
+E(\widetilde r^Tx)=E(R_p)\\
+e^Tx=1
+\end{cases}$$
+
+Where $r_i$, is the random rate of return ;
+where $x_i$, is the proportion of i th asset for investors
+
+%投资组合公式
+%投资组合优化问题实际上是一个约束多目标优化问题。随着智能优化算法的提出及发展，智能优化算法被广泛应用于求解各类实际的工程问题，这也包括投资组合优化问题 ．
+Investment portfolio optimal problem is actually a constrained multiobjective programming.with the proposal of intelligent optimization algorithms, and they are widely applied into practical project, including portfolio optimization problem.Chen and Kou reported that400 publications are relevant to intelligent optimization algorithms applied in finance term, which are used to solve portfolio optimization problems$^{[\ref{3}]}$.
+
+[Chen S. H. , Kuo T. W. . Evolutionary computation in economics and finance: a bibliography.  Evolutionary  computation  in  economics  and  finance. Physica-Verlag, Heidelberg, New York, 2002. 419-455.]
+
+中指出，大约有 400 多种刊物的内容是关于智能优化算法在金融及经济学中的应用问题的，并且其中大多数是关于投资组合优化问题的．早期智能优化算法主要用于求解单目标无约束投资组合优化问题．Dueck 和 Winker
+
+[Dueck  G.  ,  Winker  P.  .  New  concepts  and  algorithms  for  portfolio  choice. Applied Stochastic Models and Data Analysis. 1992, 8(3), 159-178.]
+
+基于智能优化算法提出一个求解投资组合优化问题的局部搜索算法．Arnone 等
+[Arnone  S.  ,  Loraschi  A.  ,  Tettamanzi  A.  .  A  genetic  approach  to  portfolio selection.  Neural  Network  World:  International  Journal  on  Neural  and Mass-Parallel Computing and Information Systems. 1993, 3(6), 597-604.]
+
+学者首先使用遗传算法求解投资组合优化问题。
+\par
+
+%4.4.2简化模型的建立
+\subsubsection{The building of The Simplified Model}
+%我们从简单情况入手，逐步靠近实际情况。我们假设投资的学校都投资五年。我们设xi表示投资的学校，其中xi满足：
+We'll start with the simple situation，approaching actual conditions step by step. A bold assumption is proposed that the time of school we will invest is five years. Where $x_i$, is the school invested and satisfy:
+$$x_i=
+\begin{cases}
+0,no investment\\
+1,investment
+\end{cases}$$
+
+Xi满足的式子
+%wi表示投资给学校Xi的资金数目比例。我们类比MV模型，建立模型如下：
+$w=i$ represents the proportion of the amount of money given to school $x_i$.we can get equations by imitating $MV$ model:
+$$\begin{cases}
+max\sum r_i\\
+min\sum q_i\\
+\sum\limits_{i=1}^{n}x_i\cdot w_i=1\\
+q_i\cdot w_i\textless e
+\end{cases}$$
+
+公式
+
+%4.4.3动态多期投资组合模型建立
+\subsubsection{Building Dynamic Multi - period Portfolio Model}
+%我们考虑具体实际情况。设t表示投资期，t取值为1到5。Ait表示在第t个投资期给学习Xi投资的资金数。Z表示第t个投资期内投资的总资金。M表示总的投资资金。则建立模型如下：
+
+复杂情况公式
+
+We take actual situation into consideration, and then we can get 
+$$
+\begin{cases}
+max\sum r_{it}\\
+min\sum q_{it}\\
+\sum\limits_{i=1}^{n}x_{it}\cdot a_{it}=Z+B_{t-1}(1+r)
+\end{cases}
+$$
+Where $t$, is the duration of investment and belongs to$[1,5]$; 
+$a_{it}$represents the amount of investment on school $x_i$ at the t th investment period; $z$ presents the total capital at the $t$ th investment period.

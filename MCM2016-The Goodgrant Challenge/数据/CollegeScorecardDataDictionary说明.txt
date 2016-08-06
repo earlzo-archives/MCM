@@ -1,0 +1,17 @@
+Median debt of completers expressed in 10-year monthly payments, suppressed for n=30 GRAD_DEBT_MDN10YR_SUPP   
+毕业生的债务中位数在10年每月支付表现
+
+3-year repayment rate for completers, suppressed for n=30   COMPL_RPY_3YR_RT_SUPP   
+毕业生3年还款率
+
+150% completion rate for four-year institutions, pooled in two-year rolling averages and suppressed for small n size.  For four year school, students are considered to have graduated "on time" if they graduate within 6 years.	C150_4_POOLED_SUPP   
+150％的完成率四年制院校，汇集在两年滚动平均值，并压制了小样本的大小。对于四制学校，学生都被认为已经毕业了“准时”，如果他们在6年内毕业
+
+200% completion rate for less-than-four-year institutions, pooled in two-year rolling averages and suppressed for small n size.  For two year schools, students are considered to have graduated "on time" if they graduate within 4 years.	C200_L4_POOLED_SUPP   
+200％的完成率就读时间低于四年制的院校，汇集在两年滚动平均值，并压制了小样本的大小。对于两年制学校，如果他们在4年内毕业，学生被认为是“准时”毕业。
+
+Median earnings of students working and not enrolled 10 years after entry	md_earn_wne_p10    
+工作后10年没有登记，学生的工作收入中位数
+
+Share of students earning over $25,000/year (threshold earnings) 6 years after entry	gt_25k_p6
+工作6年后收入超过$ 25,000/年（阈值收益）的学生份额

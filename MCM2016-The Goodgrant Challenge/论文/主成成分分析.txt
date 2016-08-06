@@ -1,0 +1,20 @@
+\noindent Principal Component Analysis (PCA) is a main multivariate statistical method for getting principal information from observational data.\\
+Standardization process for the raw data
+We assume that principal component analysis contains $m$ index variables, respectively, for $x_1$£¬$x_2$,$\cdots$ ,$x_ m$, and n accessed objects. The value of j th index of i th evaluation object is $a_{ij}$.we convert the values of all indexes into standardized values, then we have $\widetilde{a}_{ij}$\\
+$$\widetilde{a}_{ij}=\displaystyle\frac{a_{ij}-\mu_j}{s_j},i=1,2,\cdots,n;j=1,2,\cdots,m$$
+in the above equation, \[\mu_{j}=\displaystyle\frac{1}{n}\sum\limits_{i=1}^{n}a_{ij},s_j=\sqrt{\displaystyle\frac{1}{n-1}\sum\limits_{i=1}^{n}\left(a_{ij}-\mu_j\right)^2},j=1,2,\cdots,m\]
+Where $\mu_j$ and $s_j$, are the values of sample mean and sample Standard deviations respectively. and
+$$\widetilde{x}_j=\displaystyle\frac{x_j-\mu_j}{s_j},j=1,2,\cdots,m$$
+is standardized variable.\\
+2.The calculation of Correlation Coefficient Matrix $R$\\
+Correlation Coefficient Matrix is $\it R=\left(r_{ij}\right)_{m\times n}$£¬then we  have $$r_{ij}=\displaystyle\frac{\sum\limits_{k=1}^{n}\widetilde a_{ki}\cdot\widetilde a_{kj}}{n-1},I,j=1,2,\cdots,m$$
+Where $r_{ii}=1$,$r_{ij}=r_{ji}$, are the correlation coefficiens of $i$ th index and $j$ th index.\\
+3.The calculation of eigenvalues and eigenvectors\\
+We calculate the eigenvalues $\lambda_1 \geqslant \lambda_2\geqslant\cdots\geqslant\lambda_m\geqslant 0$ of correlation coefficient matrix $R$ and corresponding eigenvectors $u_1,u_2,\cdots,u_m$, $u_j=[u_{1j},u_{2j},\cdots,u_{mj}]^T$, which consists of $m$ new index variables.
+
+$$\begin{cases}
+y_1=u_{11}\widetilde x_1+u_{21}\widetilde x_2+\cdots+u_{m1}\widetilde x_m\\
+y_2=u_{12}\widetilde x_1+u_{22}\widetilde x_2+\cdots+u_{m2}\widetilde x_m\\
+\qquad\qquad\quad\quad\quad\vdots\\
+y_m=u_{1m}\widetilde x_1+u_{2m}\widetilde x_2+\cdots+u_{mm}\widetilde x_m
+\end{cases}$$

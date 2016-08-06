@@ -1,0 +1,13 @@
+	\begin{table}[H] \renewcommand\arraystretch{1.5}
+		\begin{center}
+	 	\begin{footnotesize}
+				\begin{tabular}{cccc}
+					\toprule
+				Data Deficiency &Data Error& Data Integrity&Total\\
+				903             &7         &3              &913  \\\bottomrule
+				\end{tabular}%
+			\end{footnotesize}
+			\caption{\footnotesize {Data Integrity report}}
+			\label{tab.t1}%可有可无
+		\end{center}
+	\end{table}	

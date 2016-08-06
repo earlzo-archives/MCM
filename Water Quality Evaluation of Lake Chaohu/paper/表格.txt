@@ -1,0 +1,93 @@
+%表格2
+%加载\bigstrut宏包
+\begin{table}[H] \renewcommand\arraystretch{1.5}
+    \begin{center}
+        \caption{\footnotesize {The values of RI}}
+        \label{tab.t1}%可有可无
+        \begin{footnotesize}
+\begin{tabular}{ccccccccccc}\toprule[1pt]
+\it  n & \bf 1    &\bf 2     & \bf 3  & \bf 4   &\bf 5 & \bf 6 & \bf 7 & \bf 8 & \bf 9&\bf 10   \bigstrut\\\hline
+\it RI & 0.00 &0.00 &0.58 &0.90&1.12&1.24&1.32&1.45&1.51&1.41\bigstrut\\\bottomrule[1pt]
+\end{tabular}
+\end{footnotesize}
+    \end{center}
+\end{table}
+
+
+
+%表4
+\begin{table}[H] \renewcommand\arraystretch{1.5}
+    \begin{center}
+        \caption{\footnotesize {The criterion of evaluation}}
+        \label{tab.t1}%可有可无
+        \begin{footnotesize}
+\begin{tabular}{cccccc}\toprule[1pt]
+\it Range of Evaulation value&$0.5\sim0.4$&$0.4\sim 0.3$&$0.3\sim0.2$&$0.2\sim0.1$&$0.1\sim0$\\\hline
+\it Level&1&2&3&4&5\\\bottomrule[1pt]
+\end{tabular}
+\end{footnotesize}
+    \end{center}
+\end{table}
+
+
+
+%表格5
+\begin{table}[H] \renewcommand\arraystretch{1.5}
+    \begin{center}
+        \caption{\footnotesize {Symbols Used in This Section}}
+        \label{tab.t1}%可有可无
+        \begin{footnotesize}
+            \begin{tabular}{ccccccccc}\\\toprule[1pt]
+      Index    &TN TP&COD&PH&HYD&PUR&INV&MAN\\\hline
+      value    &$0.6$&$0.5$&$0.7$&$0.4$&$0.3$&$0.6$&$0.5$&\\\bottomrule[1pt]  
+       \end{tabular}%
+        \end{footnotesize}
+    \end{center}
+\end{table}
+
+\
+%表格6
+\begin{table}[H] \renewcommand\arraystretch{1.5}
+    \begin{center}
+        \caption{\footnotesize {The loads of N and P in different land use  }}
+        \label{tab.t1}%可有可无
+        \begin{footnotesize}
+       \begin{tabular}{cccccc}\toprule[1pt]
+       \bf Types&Grass Land&Urban Land&Brushwood&Dry Land&Wasteland           \\\hline
+       \bf TN   &$16.86$     &$16.02$           &$10.5$   &$24.19$&$18.15$    \\\hline
+       \bf TP   &$3.2$       &$4.54$            &$2.33$   &$2.71$ &$3.25$     \\\hline
+       \bf Types&Dry Land  &Residential Land    &Wetland  &Water  &Paddy Field        \\\hline
+       \bf TN   &$13.9$      &$20.98$           &$2.16$   &$0$    &$26.21$    \\\hline
+       \bf TP   &$2.64$      &$4.53$            &$0.9$    &$0$    &$3.28$     \\\bottomrule[1pt]
+       \end{tabular}
+        \end{footnotesize}
+    \end{center}
+\end{table}
+
+
+
+%表格7
+
+\begin{table}[H] \renewcommand\arraystretch{1.5}
+    \begin{center}
+        \caption{\footnotesize {The toatals of N and P in different land use }}
+        \label{tab.t1}%可有可无
+        \begin{footnotesize}
+    \begin{tabular}{cccc}
+        \hline
+        Types  & Area(km2)  & N(kg/a) & P(t/a)\\
+        Paddy Field   & 10402.22 & 27266.11  & 3234.89 \\
+        Residential Land  & 1354.07  & 2840.56   & 613.06  \\
+        Woodland & 1206.64  & 1676.28   & 318.61  \\
+       Dry Land    & 632.16   & 1529.37   & 171.5   \\
+        Grass Land    & 765.85   & 1290.30   & 244.54  \\
+        Brushwood   & 670.08   & 702.87    & 155.79  \\
+        Urban Land  & 196.41   & 314.03    & 61.57   \\
+        Wetland    & 389.62   & 83.17     & 34.69   \\
+        Wasteland   & 0.99     & 1.66      & 0.29    \\
+        \hline
+    \end{tabular}
+     \end{footnotesize}
+    \end{center}
+\end{table}
+

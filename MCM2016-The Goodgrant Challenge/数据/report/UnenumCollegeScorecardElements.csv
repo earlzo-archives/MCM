@@ -1,0 +1,106 @@
+"Percentage of degrees awarded in Agriculture, Agriculture Operations, And Related Sciences.",academics,float,PCIP01,IPEDS,0
+Percentage of degrees awarded in Architecture And Related Services.,academics,float,PCIP04,IPEDS,0
+"Percentage of degrees awarded in Area, Ethnic, Cultural, Gender, And Group Studies.",academics,float,PCIP05,IPEDS,0
+Percentage of degrees awarded in Biological And Biomedical Sciences.,academics,float,PCIP26,IPEDS,0
+"Percentage of degrees awarded in Business, Management, Marketing, And Related Support Services.",academics,float,PCIP52,IPEDS,0
+"Percentage of degrees awarded in Communication, Journalism, And Related Programs.",academics,float,PCIP09,IPEDS,0
+Percentage of degrees awarded in Communications Technologies/Technicians And Support Services.,academics,float,PCIP10,IPEDS,0
+Percentage of degrees awarded in Computer And Information Sciences And Support Services.,academics,float,PCIP11,IPEDS,0
+Percentage of degrees awarded in Construction Trades.,academics,float,PCIP46,IPEDS,0
+Percentage of degrees awarded in Education.,academics,float,PCIP13,IPEDS,0
+Percentage of degrees awarded in Engineering Technologies And Engineering-Related Fields.,academics,float,PCIP15,IPEDS,0
+Percentage of degrees awarded in Engineering.,academics,float,PCIP14,IPEDS,0
+Percentage of degrees awarded in English Language And Literature/Letters.,academics,float,PCIP23,IPEDS,0
+Percentage of degrees awarded in Family And Consumer Sciences/Human Sciences.,academics,float,PCIP19,IPEDS,0
+"Percentage of degrees awarded in Foreign Languages, Literatures, And Linguistics.",academics,float,PCIP16,IPEDS,0
+Percentage of degrees awarded in Health Professions And Related Programs.,academics,float,PCIP51,IPEDS,0
+Percentage of degrees awarded in History.,academics,float,PCIP54,IPEDS,0
+"Percentage of degrees awarded in Homeland Security, Law Enforcement, Firefighting And Related Protective Services.",academics,float,PCIP43,IPEDS,0
+Percentage of degrees awarded in Legal Professions And Studies.,academics,float,PCIP22,IPEDS,0
+"Percentage of degrees awarded in Liberal Arts And Sciences, General Studies And Humanities.",academics,float,PCIP24,IPEDS,0
+Percentage of degrees awarded in Library Science.,academics,float,PCIP25,IPEDS,0
+Percentage of degrees awarded in Mathematics And Statistics.,academics,float,PCIP27,IPEDS,0
+Percentage of degrees awarded in Mechanic And Repair Technologies/Technicians.,academics,float,PCIP47,IPEDS,0
+Percentage of degrees awarded in Military Technologies And Applied Sciences.,academics,float,PCIP29,IPEDS,0
+Percentage of degrees awarded in Multi/Interdisciplinary Studies.,academics,float,PCIP30,IPEDS,0
+Percentage of degrees awarded in Natural Resources And Conservation.,academics,float,PCIP03,IPEDS,0
+"Percentage of degrees awarded in Parks, Recreation, Leisure, And Fitness Studies.",academics,float,PCIP31,IPEDS,0
+Percentage of degrees awarded in Personal And Culinary Services.,academics,float,PCIP12,IPEDS,0
+Percentage of degrees awarded in Philosophy And Religious Studies.,academics,float,PCIP38,IPEDS,0
+Percentage of degrees awarded in Physical Sciences.,academics,float,PCIP40,IPEDS,0
+Percentage of degrees awarded in Precision Production.,academics,float,PCIP48,IPEDS,0
+Percentage of degrees awarded in Psychology.,academics,float,PCIP42,IPEDS,0
+Percentage of degrees awarded in Public Administration And Social Service Professions.,academics,float,PCIP44,IPEDS,0
+Percentage of degrees awarded in Science Technologies/Technicians.,academics,float,PCIP41,IPEDS,0
+Percentage of degrees awarded in Social Sciences.,academics,float,PCIP45,IPEDS,0
+Percentage of degrees awarded in Theology And Religious Vocations.,academics,float,PCIP39,IPEDS,0
+Percentage of degrees awarded in Transportation And Materials Moving.,academics,float,PCIP49,IPEDS,0
+Percentage of degrees awarded in Visual And Performing Arts.,academics,float,PCIP50,IPEDS,0
+25th percentile of SAT scores at the institution (critical reading),admissions,float,SATVR25,IPEDS,0
+25th percentile of SAT scores at the institution (math),admissions,float,SATMT25,IPEDS,0
+25th percentile of SAT scores at the institution (writing),admissions,float,SATWR25,IPEDS,0
+25th percentile of the ACT English score,admissions,float,ACTEN25,IPEDS,0
+25th percentile of the ACT cumulative score,admissions,float,ACTCM25,IPEDS,0
+25th percentile of the ACT math score,admissions,float,ACTMT25,IPEDS,0
+25th percentile of the ACT writing score,admissions,float,ACTWR25,IPEDS,0
+75th percentile of SAT scores at the institution (critical reading),admissions,float,SATVR75,IPEDS,0
+75th percentile of SAT scores at the institution (math),admissions,float,SATMT75,IPEDS,0
+75th percentile of SAT scores at the institution (writing),admissions,float,SATWR75,IPEDS,0
+75th percentile of the ACT English score,admissions,float,ACTEN75,IPEDS,0
+75th percentile of the ACT cumulative score,admissions,float,ACTCM75,IPEDS,0
+75th percentile of the ACT math score,admissions,float,ACTMT75,IPEDS,0
+75th percentile of the ACT writing score,admissions,float,ACTWR75,IPEDS,0
+Average SAT equivalent score of students admitted,admissions,float,SAT_AVG,IPEDS,0
+Average SAT equivalent score of students admitted for all campuses rolled up to the 6-digit OPE ID,admissions,float,SAT_AVG_ALL,IPEDS,0
+Midpoint of SAT scores at the institution (critical reading),admissions,float,SATVRMID,IPEDS,0
+Midpoint of SAT scores at the institution (math),admissions,float,SATMTMID,IPEDS,0
+Midpoint of SAT scores at the institution (writing),admissions,float,SATWRMID,IPEDS,0
+Midpoint of the ACT English score,admissions,float,ACTENMID,IPEDS,0
+Midpoint of the ACT cumulative score,admissions,float,ACTCMMID,IPEDS,0
+Midpoint of the ACT math score,admissions,float,ACTMTMID,IPEDS,0
+Midpoint of the ACT writing score,admissions,float,ACTWRMID,IPEDS,0
+"Median debt of completers expressed in 10-year monthly payments, suppressed for n=30",aid,float,GRAD_DEBT_MDN10YR_SUPP,NSLDS,0
+"Median debt of completers, suppressed for n=30",aid,float,GRAD_DEBT_MDN_SUPP,NSLDS,0
+Percent of all federal undergraduate students receiving a federal student loan,aid,float,PCTFLOAN,IPEDS,0
+Percentage of undergraduates who receive a Pell Grant,aid,float,PCTPELL,IPEDS,0
+"150% completion rate for four-year institutions, pooled in two-year rolling averages and suppressed for small n size.  For four year school, students are considered to have graduated ""on time"" if they graduate within 6 years.",completion,float,C150_4_POOLED_SUPP,IPEDS,0
+"200% completion rate for less-than-four-year institutions, pooled in two-year rolling averages and suppressed for small n size.  For two year schools, students are considered to have graduated ""on time"" if they graduate within 4 years.",completion,float,C200_L4_POOLED_SUPP,IPEDS,0
+"Average net price for $0-$30,000 family income (private for-profit and nonprofit institutions)",cost,integer,NPT41_PRIV,IPEDS,0
+"Average net price for $0-$30,000 family income (public institutions)",cost,integer,NPT41_PUB,IPEDS,0
+"Average net price for $110,000+ family income (private for-profit and nonprofit institutions)",cost,integer,NPT45_PRIV,IPEDS,0
+"Average net price for $110,000+ family income (public institutions)",cost,integer,NPT45_PUB,IPEDS,0
+"Average net price for $30,001-$48,000 family income (private for-profit and nonprofit institutions)",cost,integer,NPT42_PRIV,IPEDS,0
+"Average net price for $30,001-$48,000 family income (public institutions)",cost,integer,NPT42_PUB,IPEDS,0
+"Average net price for $48,001-$75,000 family income (private for-profit and nonprofit institutions)",cost,integer,NPT43_PRIV,IPEDS,0
+"Average net price for $48,001-$75,000 family income (public institutions)",cost,integer,NPT43_PUB,IPEDS,0
+"Average net price for $75,001-$110,000 family income (private for-profit and nonprofit institutions)",cost,integer,NPT44_PRIV,IPEDS,0
+"Average net price for $75,001-$110,000 family income (public institutions)",cost,integer,NPT44_PUB,IPEDS,0
+Average net price for Title IV institutions (private for-profit and nonprofit institutions),cost,integer,NPT4_PRIV,IPEDS,0
+Average net price for Title IV institutions (public institutions),cost,integer,NPT4_PUB,IPEDS,0
+Median earnings of students working and not enrolled 10 years after entry,earnings,integer,md_earn_wne_p10,Treasury,0
+"Share of students earning over $25,000/year (threshold earnings) 6 years after entry",earnings,float,gt_25k_p6,Treasury,0
+"3-year repayment rate, suppressed for n=30",repayment,float,RPY_3YR_RT_SUPP,NSLDS,0
+6-digit OPE ID for institution,root,integer,opeid6,IPEDS,0
+8-digit OPE ID for institution,root,integer,OPEID,IPEDS,0
+City,school,autocomplete,CITY,IPEDS,0
+Institution name,school,autocomplete,INSTNM,IPEDS,0
+Schools that are on Heightened Cash Monitoring 2 by the Department of Education,school,integer,HCM2,FSA,0
+State postcode,school,string,STABBR,IPEDS,0
+URL for institution's homepage,school,string,INSTURL,IPEDS,0
+URL for institution's net price calculator,school,string,NPCURL,IPEDS,0
+Enrollment of undergraduate degree-seeking students,student,integer,UGDS,IPEDS,0
+"First-time, full-time student retention rate at four-year institutions",student,float,RET_FT4,IPEDS,0
+"First-time, full-time student retention rate at less-than-four-year institutions",student,float,RET_FTL4,IPEDS,0
+"First-time, part-time student retention rate at four-year institutions",student,float,RET_PT4,IPEDS,0
+"First-time, part-time student retention rate at less-than-four-year institutions",student,float,RET_PTL4,IPEDS,0
+Percentage of undergraduates aged 25 and above,student,float,UG25abv,IPEDS,0
+"Share of undergraduate, degree-/certificate-seeking students who are part-time",student,float,PPTUG_EF,IPEDS,0
+Total share of enrollment of undergraduate degree-seeking students who are American Indian/Alaska Native,student,float,UGDS_AIAN,IPEDS,0
+Total share of enrollment of undergraduate degree-seeking students who are Asian,student,float,UGDS_ASIAN,IPEDS,0
+Total share of enrollment of undergraduate degree-seeking students who are Hispanic,student,float,UGDS_HISP,IPEDS,0
+Total share of enrollment of undergraduate degree-seeking students who are Native Hawaiian/Pacific Islander,student,float,UGDS_NHPI,IPEDS,0
+Total share of enrollment of undergraduate degree-seeking students who are black,student,float,UGDS_BLACK,IPEDS,0
+Total share of enrollment of undergraduate degree-seeking students who are non-resident aliens,student,float,UGDS_NRA,IPEDS,0
+Total share of enrollment of undergraduate degree-seeking students who are two or more races,student,float,UGDS_2MOR,IPEDS,0
+Total share of enrollment of undergraduate degree-seeking students who are white,student,float,UGDS_WHITE,IPEDS,0
+Total share of enrollment of undergraduate degree-seeking students whose race is unknown,student,float,UGDS_UNKN,IPEDS,0
